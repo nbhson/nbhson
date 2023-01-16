@@ -1,7 +1,7 @@
 <div style="position: relative;">
   <div>
     <h2> Hi, I'm Son Nguyen! 
-      <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+      <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="30">
     </h2>
     <p>
       <em>
@@ -9,9 +9,6 @@
       </em>
     </p>
   </div>
-
-  <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="126" style="position: absolute; top: 48px; right: 0;">
-
 </div>
 
 [![Linkedin: sonnguyen](https://img.shields.io/badge/-sonnguyen-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sonnguyen/)](https://www.linkedin.com/in/nguy%E1%BB%85n-s%C6%A1n-2388b719a/)
