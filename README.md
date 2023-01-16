@@ -13,12 +13,14 @@
 
 [![Linkedin: sonnguyen](https://img.shields.io/badge/-sonnguyen-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sonnguyen/)](https://www.linkedin.com/in/nguy%E1%BB%85n-s%C6%A1n-2388b719a/)
 [![GitHub sonnguyen](https://img.shields.io/github/followers/thaiane?label=follow&style=social)](https://github.com/nbhson)
+[![Linkedin: nbhson](https://img.shields.io/badge/-nbhson-blue?style=flat-square&logo=Facebook&logoColor=white&link=https://www.linkedin.com/in/sonnguyen/)](https://www.facebook.com/profile.php?id=100074056345785)
+[![Linkedin: nbhson@gmail.com](https://img.shields.io/badge/-nbhson-blue?style=flat-square&logo=Skype&logoColor=white&link=https://www.linkedin.com/in/sonnguyen/)](nbhson@gmail.com)
 
 ---
 
 ### A little more about me:
 
-<img align='right' src="https://media.giphy.com/media/l3q2WMhNcyFOWP280/giphy.gif" style="width: 390px; margin-left: 16px; border-radius: 2px; margin-top: 1px;">
+<img align='right' src="https://media.giphy.com/media/l3q2WMhNcyFOWP280/giphy.gif" style="width: 390px; height:360px; margin-left: 16px; border-radius: 2px; margin-top: 1px;">
 
 ```javascript
 const SON_NGUYEN = {
