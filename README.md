@@ -51,3 +51,8 @@ const SON_NGUYEN = {
 ```bash
 npm install sonnguyen
 ```
+
+### Favorite 
+
+Open vsCode: <https://github.dev/>
+Open diagram: <https://gitdiagram.dev/>
