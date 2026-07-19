@@ -25,22 +25,25 @@
 ```javascript
 const SON_NGUYEN = {
   pronouns: "He" | "Him",
-  code: ["Javascript", "ES6", "Typescript"],
-  askMeAbout: ["web dev", "tech", "app dev"],
+  code: ["JavaScript", "TypeScript", "Python", "Java", "Swift"],
+  askMeAbout: ["web dev", "AI/ML", "app dev", "mobile dev"],
   technologies: {
-    fontEnd: {
+    frontEnd: {
       basic: ["HTML", "CSS", "SCSS"],
-      cssFramework: ["Bootstrap", "Material"],
+      cssFramework: ["Bootstrap", "Material", "Tailwind"],
       jsFramework: ["Angular", "React", "Vue"],
     },
     backEnd: {
-      js: ["Node", "Express"],
+      js: ["Node.js", "Express"],
+      other: ["Python", "Java"],
     },
-    databases: ["Mongo", "MySql"],
-    devOps: ["Docker🐳"],
-    misc: ["Socket.IO"],
+    databases: ["MongoDB", "MySQL"],
+    devOps: ["Docker", "Ubuntu", "CI/CD"],
+    ai: ["Gemini API", "Speech-to-Text", "Local AI"],
+    misc: ["WebSocket", "Chrome Extensions", "MCP"],
   },
-  architecture: ["Single page applications", "MVVM"],
+  architecture: ["Single page applications", "MVVM", "Micro Frontend"],
+  passion: ["teaching", "sharing knowledge", "building tools"],
 };
 ```
 
