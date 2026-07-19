@@ -44,6 +44,76 @@ const SON_NGUYEN = {
 };
 ```
 
+---
+
+## 📚 My Repositories
+
+### 🎓 Tutorials (13 repos)
+| Repository | Description |
+|-----------|-------------|
+| [tutorial-angular](https://github.com/nbhson/tutorial-angular) | Angular framework tutorials & examples |
+| [tutorial-docker](https://github.com/nbhson/tutorial-docker) | Docker tutorials & examples |
+| [tutorial-database](https://github.com/nbhson/tutorial-database) | Database tutorials (MongoDB, MySQL) |
+| [tutorial-vuejs](https://github.com/nbhson/tutorial-vuejs) | Vue.js tutorials & examples |
+| [tutorial-javascript](https://github.com/nbhson/tutorial-javascript) | JavaScript tutorials & examples |
+| [tutorial-typescript](https://github.com/nbhson/tutorial-typescript) | TypeScript tutorials & examples |
+| [tutorial-nodejs](https://github.com/nbhson/tutorial-nodejs) | Node.js tutorials & examples |
+| [tutorial-css](https://github.com/nbhson/tutorial-css) | CSS tutorials & examples |
+| [tutorial-html](https://github.com/nbhson/tutorial-html) | HTML tutorials & examples |
+| [tutorial-java](https://github.com/nbhson/tutorial-java) | Java tutorials & examples |
+| [tutorial-ubuntu-command-line](https://github.com/nbhson/tutorial-ubuntu-command-line) | Ubuntu command line tutorials |
+| [tutorial-reactive-programming](https://github.com/nbhson/tutorial-reactive-programming) | Reactive programming tutorials |
+| [tutorial-functional-programming](https://github.com/nbhson/tutorial-functional-programming) | Functional programming tutorials |
+
+### 📱 Applications (13 repos)
+| Repository | Description |
+|-----------|-------------|
+| [app-gemini-chat](https://github.com/nbhson/app-gemini-chat) | AI chat app using Gemini API |
+| [app-toeic-reading-ui](https://github.com/nbhson/app-toeic-reading-ui) | TOEIC Reading practice app (Frontend) |
+| [app-toeic-reading-be](https://github.com/nbhson/app-toeic-reading-be) | TOEIC Reading practice app (Backend) |
+| [app-youtube-player](https://github.com/nbhson/app-youtube-player) | YouTube player app |
+| [app-live-translate-extension](https://github.com/nbhson/app-live-translate-extension) | Chrome extension for live translation |
+| [app-time-zone-extension](https://github.com/nbhson/app-time-zone-extension) | Chrome extension for time zones |
+| [app-toeic](https://github.com/nbhson/app-toeic) | TOEIC practice application |
+| [app-glb-viewer](https://github.com/nbhson/app-glb-viewer) | 3D GLB model viewer |
+| [app-speech-to-text](https://github.com/nbhson/app-speech-to-text) | Speech to text application |
+| [app-anh-va-em](https://github.com/nbhson/app-anh-va-em) | Personal web app |
+| [app-storytelling](https://github.com/nbhson/app-storytelling) | Storytelling web app |
+| [app-interest-rate](https://github.com/nbhson/app-interest-rate) | Interest rate calculator |
+| [app-vue-example](https://github.com/nbhson/app-vue-example) | Vue.js example application |
+
+### 🔧 Tools (8 repos)
+| Repository | Description |
+|-----------|-------------|
+| [tool-bitbucket-mcp](https://github.com/nbhson/tool-bitbucket-mcp) | MCP server for Bitbucket integration |
+| [tool-macos-builder](https://github.com/nbhson/tool-macos-builder) | macOS build automation tool |
+| [tool-web-socket](https://github.com/nbhson/tool-web-socket) | WebSocket implementation tool |
+| [tool-web-socket-express](https://github.com/nbhson/tool-web-socket-express) | WebSocket + Express static file server |
+| [tool-web-api](https://github.com/nbhson/tool-web-api) | Web API boilerplate tool |
+| [tool-srich-editor](https://github.com/nbhson/tool-srich-editor) | Rich text editor tool |
+| [tool-git-book-reader](https://github.com/nbhson/tool-git-book-reader) | Git book reader (Swift) |
+| [tool-ai-local-supporter](https://github.com/nbhson/tool-ai-local-supporter) | Local AI support tool (Python) |
+
+### 🧠 Knowledge (8 repos)
+| Repository | Description |
+|-----------|-------------|
+| [knowledge-programming-foundations](https://github.com/nbhson/knowledge-programming-foundations) | Programming fundamentals & core concepts |
+| [knowledge-ai](https://github.com/nbhson/knowledge-ai) | AI & Machine Learning knowledge |
+| [knowledge-soft-skills](https://github.com/nbhson/knowledge-soft-skills) | Soft skills & career development |
+| [knowledge-design-pattern](https://github.com/nbhson/knowledge-design-pattern) | Software design patterns |
+| [knowledge-accessibility](https://github.com/nbhson/knowledge-accessibility) | Web accessibility (a11y) |
+| [knowledge-ui-ux](https://github.com/nbhson/knowledge-ui-ux) | UI/UX design knowledge |
+| [knowledge-version-control](https://github.com/nbhson/knowledge-version-control) | Git & version control |
+| [knowledge-technical-scrolling](https://github.com/nbhson/knowledge-technical-scrolling) | Technical scrolling techniques |
+
+### 📂 Projects (2 repos)
+| Repository | Description |
+|-----------|-------------|
+| [project-collection](https://github.com/nbhson/project-collection) | Collection of various projects |
+| [project-nodejs-interview](https://github.com/nbhson/project-nodejs-interview) | Node.js interview preparation |
+
+---
+
 ### Installation Instructions:
 
 <img align='left' style="margin-top: -6px; margin-right: 6px; width: 50px;" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif">
@@ -52,7 +122,7 @@ const SON_NGUYEN = {
 npm install sonnguyen
 ```
 
-### Favorite 
+### Favorite
 
 Open vsCode: <https://github.dev/>
 Open diagram: <https://gitdiagram.dev/>
