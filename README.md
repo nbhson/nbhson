@@ -1,32 +1,49 @@
-<div style="position: relative;">
-  <div>
-    <h2> Hi, I'm Son Nguyen! 
-      <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="30">
-    </h2>
-    <p>
-      <em>
-        Software Engineer at <a href="https://www.tmasolutions.com/">TMA Solution</a>
-      </em>
-    </p>
-  </div>
+---
+
+<p align="center">
+  <img src="https://media.giphy.com/media/L1R1tvI9svkIWkmVYj/giphy.gif" width="50">
+</p>
+
+<div align="center">
+  <h2>
+    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
+    Hi, I'm Son Nguyen!
+  </h2>
+  <p>
+    <em>
+      Software Engineer at <a href="https://www.tmasolutions.com/">TMA Solution</a>
+    </em>
+  </p>
 </div>
 
-[![Linkedin: sonnguyen](https://img.shields.io/badge/-sonnguyen-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/sonnguyen/)](https://www.linkedin.com/in/nguy%E1%BB%85n-s%C6%A1n-2388b719a/)
-[![GitHub sonnguyen](https://img.shields.io/github/followers/thaiane?label=follow&style=social)](https://github.com/nbhson)
-[![Linkedin: nbhson](https://img.shields.io/badge/-nbhson-blue?style=flat-square&logo=Facebook&logoColor=white&link=https://www.linkedin.com/in/sonnguyen/)](https://www.facebook.com/profile.php?id=100074056345785)
-[![Linkedin: nbhson@gmail.com](https://img.shields.io/badge/-nbhson-blue?style=flat-square&logo=Skype&logoColor=white&link=https://www.linkedin.com/in/sonnguyen/)](nbhson@gmail.com)
+<p align="center">
+  <a href="https://www.linkedin.com/in/nguy%E1%BB%85n-s%C6%A1n-2388b719a/">
+    <img src="https://img.shields.io/badge/-sonnguyen-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="Linkedin">
+  </a>
+  <a href="https://github.com/nbhson">
+    <img src="https://img.shields.io/github/followers/nbhson?label=follow&style=social" alt="GitHub">
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=100074056345785">
+    <img src="https://img.shields.io/badge/-nbhson-blue?style=flat-square&logo=Facebook&logoColor=white" alt="Facebook">
+  </a>
+  <a href="mailto:nbhson@gmail.com">
+    <img src="https://img.shields.io/badge/-nbhson@gmail.com-blue?style=flat-square&logo=Gmail&logoColor=white" alt="Email">
+  </a>
+</p>
 
 ---
 
-### A little more about me:
+<div align="center">
+  <img src="https://media.giphy.com/media/l3q2WMhNcyFOWP280/giphy.gif" width="400">
+</div>
 
-<img align='right' src="https://media.giphy.com/media/l3q2WMhNcyFOWP280/giphy.gif" style="width: 390px; height:360px; margin-left: 16px; border-radius: 2px; margin-top: 1px;">
+### A little more about me:
 
 ```javascript
 const SON_NGUYEN = {
   pronouns: "He" | "Him",
-  code: ["JavaScript", "TypeScript", "Python", "Java", "Swift"],
-  askMeAbout: ["web dev", "AI/ML", "app dev", "mobile dev"],
+  code: ["JavaScript", "TypeScript", "Python", "Java", "Swift", "Go"],
+  askMeAbout: ["web dev", "AI/ML", "app dev", "mobile dev", "dev tools"],
   technologies: {
     frontEnd: {
       basic: ["HTML", "CSS", "SCSS"],
@@ -35,12 +52,12 @@ const SON_NGUYEN = {
     },
     backEnd: {
       js: ["Node.js", "Express"],
-      other: ["Python", "Java"],
+      other: ["Python", "Java", "Go"],
     },
     databases: ["MongoDB", "MySQL"],
     devOps: ["Docker", "Ubuntu", "CI/CD"],
     ai: ["Gemini API", "Speech-to-Text", "Local AI"],
-    misc: ["WebSocket", "Chrome Extensions", "MCP"],
+    misc: ["WebSocket", "Chrome Extensions", "MCP", "macOS"],
   },
   architecture: ["Single page applications", "MVVM", "Micro Frontend"],
   passion: ["teaching", "sharing knowledge", "building tools"],
@@ -68,12 +85,13 @@ const SON_NGUYEN = {
 | [tutorial-reactive-programming](https://github.com/nbhson/tutorial-reactive-programming) | Reactive programming tutorials |
 | [tutorial-functional-programming](https://github.com/nbhson/tutorial-functional-programming) | Functional programming tutorials |
 
-### 📱 Applications (13 repos)
+### 📱 Applications (14 repos)
 | Repository | Description |
 |-----------|-------------|
 | [app-gemini-chat](https://github.com/nbhson/app-gemini-chat) | AI chat app using Gemini API |
 | [app-toeic-reading-ui](https://github.com/nbhson/app-toeic-reading-ui) | TOEIC Reading practice app (Frontend) |
 | [app-toeic-reading-be](https://github.com/nbhson/app-toeic-reading-be) | TOEIC Reading practice app (Backend) |
+| [app-lock-tab](https://github.com/nbhson/app-lock-tab) | Chrome extension to lock browser tabs with password |
 | [app-youtube-player](https://github.com/nbhson/app-youtube-player) | YouTube player app |
 | [app-live-translate-extension](https://github.com/nbhson/app-live-translate-extension) | Chrome extension for live translation |
 | [app-time-zone-extension](https://github.com/nbhson/app-time-zone-extension) | Chrome extension for time zones |
@@ -85,7 +103,7 @@ const SON_NGUYEN = {
 | [app-interest-rate](https://github.com/nbhson/app-interest-rate) | Interest rate calculator |
 | [app-vue-example](https://github.com/nbhson/app-vue-example) | Vue.js example application |
 
-### 🔧 Tools (8 repos)
+### 🔧 Tools (11 repos)
 | Repository | Description |
 |-----------|-------------|
 | [tool-bitbucket-mcp](https://github.com/nbhson/tool-bitbucket-mcp) | MCP server for Bitbucket integration |
@@ -96,6 +114,9 @@ const SON_NGUYEN = {
 | [tool-srich-editor](https://github.com/nbhson/tool-srich-editor) | Rich text editor tool |
 | [tool-git-book-reader](https://github.com/nbhson/tool-git-book-reader) | Git book reader (Swift) |
 | [tool-ai-local-supporter](https://github.com/nbhson/tool-ai-local-supporter) | Local AI support tool (Python) |
+| [tool-auto-collect-your-work](https://github.com/nbhson/tool-auto-collect-your-work) | Auto collect your work tool (Python) |
+| [tool-harness-generate-slide](https://github.com/nbhson/tool-harness-generate-slide) | Slide generation harness tool (TypeScript) |
+| [claude-code-free](https://github.com/nbhson/claude-code-free) | Free Claude Code command-line coding agent |
 
 ### 🧠 Knowledge (8 repos)
 | Repository | Description |
@@ -117,15 +138,12 @@ const SON_NGUYEN = {
 
 ---
 
-### Installation Instructions:
-
-<img align='left' style="margin-top: -6px; margin-right: 6px; width: 50px;" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif">
+### Quick Links
 
 ```bash
 npm install sonnguyen
 ```
 
-### Favorite
-
-Open vsCode: <https://github.dev/>
-Open diagram: <https://gitdiagram.dev/>
+**Favorite Tools:**
+- Open vsCode: <https://github.dev/>
+- Open diagram: <https://gitdiagram.dev/>
