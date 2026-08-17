@@ -26,7 +26,7 @@
   <a href="https://www.facebook.com/profile.php?id=100074056345785">
     <img src="https://img.shields.io/badge/-nbhson-blue?style=flat-square&logo=Facebook&logoColor=white" alt="Facebook">
   </a>
-  <a href="mailto:nbhson@gmail.com">
+  <a href="mailto:nbhson43@gmail.com">
     <img src="https://img.shields.io/badge/-nbhson@gmail.com-blue?style=flat-square&logo=Gmail&logoColor=white" alt="Email">
   </a>
 </p>
