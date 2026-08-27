@@ -7,7 +7,7 @@
 <div align="center">
   <h2>
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
-    Hi, I'm Son Nguyen!
+    Hi, I'm Sơn Nguyễn!
   </h2>
   <p>
     <em>
@@ -59,7 +59,7 @@ const SON_NGUYEN = {
     ai: ["Gemini API", "Speech-to-Text", "Local AI"],
     misc: ["WebSocket", "Chrome Extensions", "MCP", "macOS"],
   },
-  architecture: ["Single page applications", "MVVM", "Micro Frontend"],
+  architecture: ["Single page applications", "MVVM", "Micro Frontend", "Monorepo"],
   passion: ["teaching", "sharing knowledge", "building tools"],
 };
 ```
@@ -85,12 +85,11 @@ const SON_NGUYEN = {
 | [tutorial-reactive-programming](https://github.com/nbhson/tutorial-reactive-programming) | Reactive programming tutorials |
 | [tutorial-functional-programming](https://github.com/nbhson/tutorial-functional-programming) | Functional programming tutorials |
 
-### 📱 Applications (14 repos)
+### 📱 Applications (13 repos)
 | Repository | Description |
 |-----------|-------------|
 | [app-gemini-chat](https://github.com/nbhson/app-gemini-chat) | AI chat app using Gemini API |
-| [app-toeic-reading-ui](https://github.com/nbhson/app-toeic-reading-ui) | TOEIC Reading practice app (Frontend) |
-| [app-toeic-reading-be](https://github.com/nbhson/app-toeic-reading-be) | TOEIC Reading practice app (Backend) |
+| [toeic-container](https://github.com/nbhson/toeic-container) | **Monorepo** — TOEIC Reading (Angular + Express + OmniRoute) |
 | [app-lock-tab](https://github.com/nbhson/app-lock-tab) | Chrome extension to lock browser tabs with password |
 | [app-youtube-player](https://github.com/nbhson/app-youtube-player) | YouTube player app |
 | [app-live-translate-extension](https://github.com/nbhson/app-live-translate-extension) | Chrome extension for live translation |
