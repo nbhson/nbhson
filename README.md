@@ -85,11 +85,15 @@ const SON_NGUYEN = {
 | [tutorial-reactive-programming](https://github.com/nbhson/tutorial-reactive-programming) | Reactive programming tutorials |
 | [tutorial-functional-programming](https://github.com/nbhson/tutorial-functional-programming) | Functional programming tutorials |
 
-### 📱 Applications (13 repos)
+### 📱 Applications (17 repos)
 | Repository | Description |
 |-----------|-------------|
 | [app-gemini-chat](https://github.com/nbhson/app-gemini-chat) | AI chat app using Gemini API |
 | [toeic-container](https://github.com/nbhson/toeic-container) | **Monorepo** — TOEIC Reading (Angular + Express + OmniRoute) |
+| [app-agnes-studio](https://github.com/nbhson/app-agnes-studio) | Agnes Studio — creative web application |
+| [app-english-speaking](https://github.com/nbhson/app-english-speaking) | English speaking practice application |
+| [app-human-attention-infrastructure](https://github.com/nbhson/app-human-attention-infrastructure) | Human attention infrastructure research app |
+| [app-ollama-local-chat](https://github.com/nbhson/app-ollama-local-chat) | Local AI chat using Ollama |
 | [app-lock-tab](https://github.com/nbhson/app-lock-tab) | Chrome extension to lock browser tabs with password |
 | [app-youtube-player](https://github.com/nbhson/app-youtube-player) | YouTube player app |
 | [app-live-translate-extension](https://github.com/nbhson/app-live-translate-extension) | Chrome extension for live translation |
@@ -102,7 +106,7 @@ const SON_NGUYEN = {
 | [app-interest-rate](https://github.com/nbhson/app-interest-rate) | Interest rate calculator |
 | [app-vue-example](https://github.com/nbhson/app-vue-example) | Vue.js example application |
 
-### 🔧 Tools (11 repos)
+### 🔧 Tools (12 repos)
 | Repository | Description |
 |-----------|-------------|
 | [tool-bitbucket-mcp](https://github.com/nbhson/tool-bitbucket-mcp) | MCP server for Bitbucket integration |
@@ -116,6 +120,7 @@ const SON_NGUYEN = {
 | [tool-auto-collect-your-work](https://github.com/nbhson/tool-auto-collect-your-work) | Auto collect your work tool (Python) |
 | [tool-harness-generate-slide](https://github.com/nbhson/tool-harness-generate-slide) | Slide generation harness tool (TypeScript) |
 | [claude-code-free](https://github.com/nbhson/claude-code-free) | Free Claude Code command-line coding agent |
+| [test-hai](https://github.com/nbhson/test-hai) | Testing utilities and experiments |
 
 ### 🧠 Knowledge (8 repos)
 | Repository | Description |
@@ -128,6 +133,13 @@ const SON_NGUYEN = {
 | [knowledge-ui-ux](https://github.com/nbhson/knowledge-ui-ux) | UI/UX design knowledge |
 | [knowledge-version-control](https://github.com/nbhson/knowledge-version-control) | Git & version control |
 | [knowledge-technical-scrolling](https://github.com/nbhson/knowledge-technical-scrolling) | Technical scrolling techniques |
+
+### 🎨 Templates (3 repos)
+| Repository | Description |
+|-----------|-------------|
+| [template-morphin-premium-landing](https://github.com/nbhson/template-morphin-premium-landing) | Premium landing page template |
+| [template-storytelling](https://github.com/nbhson/template-storytelling) | Cinematic scroll-driven landing template — React 19, Next.js 15, Three.js, GSAP |
+| [template-webgl-hybird](https://github.com/nbhson/template-webgl-hybird) | WebGL hybrid rendering template |
 
 ### 📂 Projects (2 repos)
 | Repository | Description |
