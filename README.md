@@ -101,11 +101,11 @@ const SON_NGUYEN = {
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nbhson&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nbhson&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.shion.dev/api?username=nbhson&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="165" />
+  <img src="https://streak-stats.demolab.com/?user=nbhson&theme=tokyonight&hide_border=true" height="165" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nbhson&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=nbhson&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" />
 </p>
 
 ---
@@ -156,10 +156,10 @@ const SON_NGUYEN = {
 
 <p align="center">
   <a href="https://github.com/nbhson/app-human-attention-infrastructure">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nbhson&repo=app-human-attention-infrastructure&theme=tokyonight&hide_border=true" />
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=nbhson&repo=app-human-attention-infrastructure&theme=tokyonight&hide_border=true" />
   </a>
   <a href="https://github.com/nbhson/human-attention-infrastructure-harness">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nbhson&repo=human-attention-infrastructure-harness&theme=tokyonight&hide_border=true" />
+    <img src="https://github-readme-stats.shion.dev/api/pin/?username=nbhson&repo=human-attention-infrastructure-harness&theme=tokyonight&hide_border=true" />
   </a>
 </p>
 
