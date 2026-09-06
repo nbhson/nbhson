@@ -1,131 +1,101 @@
-<p align="center">
-  <img src="https://media.giphy.com/media/L1R1tvI9svkIWkmVYj/giphy.gif" width="50">
-</p>
-
 <div align="center">
-  <h2>
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
-    Hi, I'm Sơn Nguyễn!
-  </h2>
-  <p>
-    <em>Software Engineer at <a href="https://www.tmasolutions.com/">TMA Solutions</a> — Full-Stack • AI • Tools Builder</em>
-  </p>
-  <a href="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Software+Engineer+%F0%9F%92%BB;AI+%2F+Full-Stack+Developer;Building+tools+for+humans+%F0%9F%9A%80;Teaching+%26+Sharing+Knowledge+%F0%9F%93%9A">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Software+Engineer+%F0%9F%92%BB;AI+%2F+Full-Stack+Developer;Building+tools+for+humans+%F0%9F%9A%80;Teaching+%26+Sharing+Knowledge+%F0%9F%93%9A" alt="Typing SVG" />
-  </a>
-</div>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/nguy%E1%BB%85n-s%C6%A1n-2388b719a/">
-    <img src="https://img.shields.io/badge/-sonnguyen-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="Linkedin">
-  </a>
-  <a href="https://github.com/nbhson">
-    <img src="https://img.shields.io/github/followers/nbhson?label=follow&style=social" alt="GitHub">
-  </a>
-  <a href="https://www.facebook.com/profile.php?id=100074056345785">
-    <img src="https://img.shields.io/badge/-nbhson-blue?style=flat-square&logo=Facebook&logoColor=white" alt="Facebook">
-  </a>
-  <a href="mailto:nbhson43@gmail.com">
-    <img src="https://img.shields.io/badge/-nbhson@gmail.com-blue?style=flat-square&logo=Gmail&logoColor=white" alt="Email">
-  </a>
-  <br/>
-  <img src="https://komarev.com/ghpvc/?username=nbhson&label=Profile%20views&color=58A6FF&style=flat-square" alt="Profile views" />
-  <img src="https://img.shields.io/github/stars/nbhson?affiliations=OWNER&style=flat-square&label=Total%20Stars&color=58A6FF" alt="Total Stars" />
+# Sơn Nguyễn
+
+**Software Engineer @ [TMA Solutions](https://www.tmasolutions.com/) — Full-Stack · AI · Infrastructure**
+
+*Building human-centered tools — from PR review control planes to knowledge systems.*
+
+<a href="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=Full-Stack+Engineer+%7C+AI+Infrastructure;TypeScript+%E2%80%A2+Python+%E2%80%A2+Fastify+%E2%80%A2+React+%E2%80%A2+Postgres;Human+Attention+is+the+Scarce+Resource">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&lines=Full-Stack+Engineer+%7C+AI+Infrastructure;TypeScript+%E2%80%A2+Python+%E2%80%A2+Fastify+%E2%80%A2+React+%E2%80%A2+Postgres;Human+Attention+is+the+Scarce+Resource" alt="Typing" />
+</a>
+
+<p>
+  <a href="https://www.linkedin.com/in/nguy%E1%BB%85n-s%C6%A1n-2388b719a/"><img src="https://img.shields.io/badge/LinkedIn-sonnguyen-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/nbhson"><img src="https://img.shields.io/badge/GitHub-nbhson-24292f?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:nbhson43@gmail.com"><img src="https://img.shields.io/badge/Email-nbhson43@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.facebook.com/profile.php?id=100074056345785"><img src="https://img.shields.io/badge/Facebook-nbhson-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" /></a>
 </p>
+<p>
+  <img src="https://komarev.com/ghpvc/?username=nbhson&label=Profile%20views&color=58A6FF&style=flat-square" alt="views" />
+  <img src="https://img.shields.io/github/stars/nbhson?affiliations=OWNER&style=flat-square&label=Stars&color=58A6FF" alt="stars" />
+  <img src="https://img.shields.io/github/followers/nbhson?style=flat-square&label=Followers&color=58A6FF" alt="followers" />
+</p>
+
+</div>
 
 ---
 
-<div align="center">
-  <img src="https://media.giphy.com/media/l3q2WMhNcyFOWP280/giphy.gif" width="400">
-</div>
+### About
 
-### 👨‍💻 A little more about me:
+I build **review infrastructure, knowledge systems, and developer tools** where **AI handles the flood and humans keep the decision**. Focused on clean boundaries, provable metrics, and auditability — from MCP integrations to attention scoring.
+
+- **Current focus:** HAI Harness (PR review control plane), Project Knowledge Harness (6-engine knowledge system), Free LLM Gateway (43 providers / 324 models)
+- **Principles:** Evidence before confidence · Human attention is scarce · Full provenance · Shadow-then-default
+- **Open to:** Architecture reviews, MCP/tooling collaborations, knowledge & AI infrastructure discussions
 
 ```javascript
 const SON_NGUYEN = {
-  pronouns: "He" | "Him",
   role: "Software Engineer @ TMA Solutions",
   code: ["JavaScript", "TypeScript", "Python", "Java", "Swift", "Go"],
-  askMeAbout: ["web dev", "AI/ML", "app dev", "Chrome Extensions", "MCP", "dev tools"],
-  technologies: {
-    frontEnd: {
-      languages: ["HTML", "CSS", "SCSS"],
-      cssFramework: ["Tailwind CSS", "Bootstrap", "Material"],
-      jsFramework: ["Angular", "React 19", "Vue", "Next.js 15"],
-      creative: ["Three.js / R3F", "GSAP ScrollTrigger", "Lenis", "WebGL"],
-    },
-    backEnd: {
-      js: ["Node.js", "Express", "Hono + Bun"],
-      python: ["Python", "FastAPI", "Pydantic v2", "SQLAlchemy"],
-      other: ["Java", "Go"],
-    },
-    databases: ["MongoDB", "MySQL", "ChromaDB", "SQLite / PostgreSQL"],
-    devOps: ["Docker", "Ubuntu", "CI/CD", "GitHub Actions"],
-    ai: ["Gemini API", "OpenAI Compatible Gateway", "Speech-to-Text", "Ollama / Local AI", "MCP"],
-    misc: ["WebSocket", "Chrome Extensions", "NetworkX", "tree-sitter"],
+  askMeAbout: ["web dev", "AI/ML", "MCP", "Chrome Extensions", "dev tools"],
+  stack: {
+    frontEnd: ["Angular", "React 19", "Vue", "Next.js 15", "Three.js / R3F", "GSAP", "Tailwind"],
+    backEnd: ["Node.js", "Express", "Hono + Bun", "Fastify", "Python / FastAPI"],
+    data: ["MongoDB", "MySQL", "PostgreSQL 16 (Drizzle)", "ChromaDB", "SQLite"],
+    infra: ["Docker", "GitHub Actions", "OpenTelemetry", "Vite", "Turborepo"],
+    ai: ["Gemini API", "OpenAI-compatible Gateway", "Ollama / Local AI", "Speech-to-Text", "MCP"],
   },
   architecture: ["SPA", "MVVM", "Micro Frontend", "Monorepo", "Polyglot Persistence"],
-  currentlyBuilding: ["HAI Harness — PR Review Control Plane ⭐", "Project Knowledge Harness (PKH)", "Free LLM Gateway (43 providers / 324 models)"],
-  passion: ["teaching", "sharing knowledge", "building tools for humans"],
+  currentlyBuilding: ["HAI Harness — PR Review Control Plane", "Project Knowledge Harness (PKH)", "Free LLM Gateway"],
 };
 ```
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,python,java,swift,go,html,css,tailwind,react,vue,angular,nextjs,nodejs,express,fastapi,mongodb,mysql,docker,git,vscode&perline=11" />
-  </a>
-  <br/>
-  <img src="https://img.shields.io/badge/Three.js-000?logo=three.js&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/GSAP-88CE02?logo=greensock&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square" />
-  <img src="https://img.shields.io/badge/Hono-E36002?style=flat-square" />
-  <img src="https://img.shields.io/badge/Bun-000?logo=bun&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/MCP-58A6FF?style=flat-square" />
-  <img src="https://img.shields.io/badge/Ollama-000?style=flat-square" />
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=js,ts,python,java,swift,go,html,css,tailwind,react,vue,angular,nextjs,nodejs,express,fastify,fastapi,mongodb,mysql,postgres,docker,git,vscode&perline=12" alt="stack" /></a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Three.js-000?logo=three.js&logoColor=white&style=flat-square" alt="Three.js" />
+  <img src="https://img.shields.io/badge/GSAP-88CE02?logo=greensock&logoColor=white&style=flat-square" alt="GSAP" />
+  <img src="https://img.shields.io/badge/Drizzle-C5CC83?style=flat-square&labelColor=24292f" alt="Drizzle" />
+  <img src="https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square" alt="Chroma" />
+  <img src="https://img.shields.io/badge/Hono-E36002?style=flat-square" alt="Hono" />
+  <img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square" alt="OTel" />
+  <img src="https://img.shields.io/badge/MCP-58A6FF?style=flat-square" alt="MCP" />
 </p>
 
 ---
 
-### 🚀 Currently Building
+### Currently Building
 
-- ⭐ **HAI Harness** — `app-human-attention-infrastructure` — **FEATURED** — AI PR review control plane (MCP · Fastify · React · Postgres · OTel). Paste PR URL → AI report + findings + fix suggestions → human decides. `v0.6.0-harness · 25 packages · 149 tests`
-- 🔭 **Project Knowledge Harness (PKH)** — `app-project-knowledge` — continuously evolving, model-independent knowledge system (Git/Confluence/Jira → AST → Knowledge Graph). Stack: `Python · FastAPI · tree-sitter · ChromaDB · NetworkX` — 6-engine pipeline.
-- 🌐 **Free LLM Gateway** — `app-auto-llm-free` — One OpenAI-compatible endpoint aggregating **43 providers · 324 models · 100% FREE** (Hono + Bun, Smart Routing + Fallback). Self-hosted, BYOK, `$0`.
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=nbhson&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="165" />
-  <img src="https://streak-stats.demolab.com/?user=nbhson&theme=tokyonight&hide_border=true" height="165" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=nbhson&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" />
-</p>
+| Project | What it is | Stack |
+|---------|------------|-------|
+| **⭐ HAI Harness** — [`app-human-attention-infrastructure`](https://github.com/nbhson/app-human-attention-infrastructure) | **PR review control plane.** AI reviews external PRs, human decides. `v0.6.0-harness · 25 packages · 149 tests · 7 e2e` | TS · Fastify · React Vite · Postgres Drizzle · OTel · Docker · MCP |
+| **Project Knowledge Harness** — [`app-project-knowledge`](https://github.com/nbhson/app-project-knowledge) | Model-independent knowledge system (Git/Confluence/Jira → AST → Graph) | Python · FastAPI · tree-sitter · ChromaDB · NetworkX |
+| **Free LLM Gateway** — [`app-auto-llm-free`](https://github.com/nbhson/app-auto-llm-free) | One OpenAI-compatible endpoint — 43 providers · 324 models · 100% free | Hono + Bun · Smart routing · Fallback |
 
 ---
 
-## ⭐ Featured — HAI Harness · Human-Attention Infrastructure
+### Featured — HAI Harness · Human-Attention Infrastructure
 
-> **AI reviews external PRs; a human decides.** Paste a PR/MR URL (+ Jira ticket) → harness fetches diff + requirement via MCP, asks AI to review, stores report + findings + fix suggestions. Every step lands in an append-only event log — replayable, auditable.
+> **AI reviews external PRs; a human decides.** Paste a PR/MR URL (+ optional Jira ticket) → harness fetches diff + requirement via **MCP**, asks AI to review, stores report with findings & fix suggestions. Every step is append-only and auditable.
 
 <p align="center">
   <a href="https://github.com/nbhson/app-human-attention-infrastructure">
-    <img src="https://raw.githubusercontent.com/nbhson/app-human-attention-infrastructure/main/HAI.png" width="85%" alt="HAI Review UI" />
+    <img src="https://raw.githubusercontent.com/nbhson/app-human-attention-infrastructure/main/HAI.png" width="84%" alt="HAI Review" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/nbhson/app-human-attention-infrastructure"><img src="https://img.shields.io/badge/repo-app--human--attention--infrastructure-58A6FF?style=flat-square&logo=github" alt="app-human-attention-infrastructure" /></a>
-  <a href="https://github.com/nbhson/human-attention-infrastructure-harness"><img src="https://img.shields.io/badge/mirror-human--attention--infrastructure--harness-24292f?style=flat-square&logo=github" alt="mirror" /></a>
-  <img src="https://img.shields.io/badge/version-v0.6.0--harness-7a3f3f?style=flat-square" alt="v0.6.0-harness" />
+  <a href="https://github.com/nbhson/app-human-attention-infrastructure"><img src="https://img.shields.io/badge/repo-app--human--attention--infrastructure-58A6FF?style=flat-square&logo=github" alt="repo" /></a>
+  <a href="https://github.com/nbhson/human-attention-infrastructure-harness"><img src="https://img.shields.io/badge/mirror-human--attention--harness-24292f?style=flat-square&logo=github" alt="mirror" /></a>
+  <img src="https://img.shields.io/badge/version-v0.6.0--harness-7a3f3f?style=flat-square" alt="v0.6.0" />
   <img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square" alt="Apache-2.0" />
-  <img src="https://img.shields.io/badge/node-%E2%89%A5%2020-339933?style=flat-square&logo=node.js" alt="Node >=20" />
+  <img src="https://img.shields.io/badge/node-%E2%89%A5%2020-339933?style=flat-square&logo=node.js" alt="node" />
   <img src="https://img.shields.io/badge/pnpm-9.15.4-F69220?style=flat-square&logo=pnpm" alt="pnpm" />
 </p>
 
@@ -133,72 +103,83 @@ const SON_NGUYEN = {
 <tr>
 <td width="50%" valign="top">
 
-**🔍 What it does**
-- `POST /api/reviews { prUrl, jiraTicket? }` → `202 Accepted` — fetches PR (GitHub/GitLab/Bitbucket) + Jira via **MCP** (`mcp.config.json`)
-- **AI review** (Anthropic / OpenAI-compatible) → `review_reports` + `review_findings` + `fix_suggestions`
-- **Verify** in Docker sandbox (build + test) — flags report, never authors fix
-- **Human decision** `approve / request-changes / reject` + **toggle-gated write-back** → PR/MR + Jira (`writeback_log`)
-- Attention metric `flaggedFiles / totalFiles` — file-based, bias-proof, Breakdown tab
+**What it does**
+- `POST /api/reviews { prUrl, jiraTicket? }` → `202 Accepted` — fetches PR (GitHub/GitLab/Bitbucket) + Jira via MCP
+- AI review (Anthropic / OpenAI-compatible) → `review_reports` + `findings` + `fix_suggestions`
+- Verifies in Docker sandbox (build + test) — flags report, never authors a fix
+- Human decision `approve / request-changes / reject` + toggle-gated write-back to PR/Jira
+- Attention metric `flaggedFiles / totalFiles` — file-based, bias-proof, with Breakdown tab
 
 </td>
 <td width="50%" valign="top">
 
-**🏗️ How it's built**
-- **Stack:** `TypeScript · Fastify · React (Vite) · PostgreSQL 16 (Drizzle) · OpenTelemetry · Docker`
-- **Boundary:** 25 `@harness/*` packages — engines never import another engine
+**How it's built**
+- **Stack:** TypeScript · Fastify · React (Vite) · PostgreSQL 16 (Drizzle) · OpenTelemetry · Docker
+- **Boundaries:** 25 `@harness/*` packages — engines never import another engine
 - **Status:** `v0.6.0-harness` — review-only control plane (`review-reorient` pivot)
-- **Quality:** `149 test files · 51 tables · 7 e2e` · `build ✅ typecheck ✅ lint ✅`
-- **Ops:** Event log `correlation_id`, LLM-as-judge, memory tiers, closed learning loop
+- **Quality:** 149 test files · 51 tables · 7 e2e · build / typecheck / lint green
+- **Ops:** `correlation_id` event log · LLM-as-judge · memory tiers · closed learning loop
 
 </td>
 </tr>
 </table>
 
 <p align="center">
-  <a href="https://github.com/nbhson/app-human-attention-infrastructure">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=nbhson&repo=app-human-attention-infrastructure&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/nbhson/human-attention-infrastructure-harness">
-    <img src="https://github-readme-stats.shion.dev/api/pin/?username=nbhson&repo=human-attention-infrastructure-harness&theme=tokyonight&hide_border=true" />
-  </a>
+  <a href="https://github.com/nbhson/app-human-attention-infrastructure"><img src="https://github-readme-stats.shion.dev/api/pin/?username=nbhson&repo=app-human-attention-infrastructure&theme=tokyonight&hide_border=true" alt="pin app-hai" /></a>
+  <a href="https://github.com/nbhson/human-attention-infrastructure-harness"><img src="https://github-readme-stats.shion.dev/api/pin/?username=nbhson&repo=human-attention-infrastructure-harness&theme=tokyonight&hide_border=true" alt="pin harness" /></a>
 </p>
+<p align="center"><sub>Flow: <code>Settings (MCP/Jira/AI) → POST /api/reviews → ReviewWorkerSubscriber → Report UI → Decision → Write-back</code> · <a href="https://github.com/nbhson/app-human-attention-infrastructure/blob/main/docs/retros/phase3-exit-review.md">Phase-3 exit review →</a></sub></p>
+
+---
+
+### Analytics
 
 <p align="center">
-  <sub>Flow: <code>Settings (MCP/Jira/AI) → POST /api/reviews → ReviewWorkerSubscriber → Report UI → Decision → Write-back</code> · Pivot retired code-gen keep review/verify/attention/provenance · <a href="https://github.com/nbhson/app-human-attention-infrastructure/blob/main/docs/retros/phase3-exit-review.md">exit review</a></sub>
+  <img src="https://github-readme-stats.shion.dev/api?username=nbhson&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="150" alt="stats" />
+  <img src="https://streak-stats.demolab.com/?user=nbhson&theme=tokyonight&hide_border=true" height="150" alt="streak" />
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=nbhson&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="150" alt="top langs" />
 </p>
 
 ---
 
-## 📚 My Repositories — 58 Public
+## Repositories — 58 Public
 
-> `58` repos • Last updated: **2026-09-06** • `npx sonnguyen` — always evolving
+> Last synced **2026-09-06** via `gh api users/nbhson/repos` · `npx sonnguyen`
 
-### 📱 Applications (19 repos)
+<details open>
+<summary><b>📱 Applications — 19</b></summary>
+
 | Repository | Description |
-|-----------|-------------|
-| [app-auto-llm-free](https://github.com/nbhson/app-auto-llm-free) | 🌟 **NEW** — One endpoint for all free LLMs — 43 providers / 324 models · Hono + Bun · OpenAI-compatible |
-| [app-project-knowledge](https://github.com/nbhson/app-project-knowledge) | 🌟 **NEW** — Project Knowledge Harness — 6-engine knowledge system (Python/FastAPI) |
-| [app-human-attention-infrastructure](https://github.com/nbhson/app-human-attention-infrastructure) | ⭐ **FEATURED** — HAI Harness — PR review control plane — AI reviews PR + Jira via MCP → findings + fixes → human decides · `v0.6.0 · TS/Fastify/React/Postgres/OTel · 25 packages` |
+|------------|-------------|
+| [app-human-attention-infrastructure](https://github.com/nbhson/app-human-attention-infrastructure) | ⭐ **Featured** — HAI Harness — PR review control plane · `v0.6.0 · TS/Fastify/React/Postgres/OTel · 25 packages` |
+| [app-auto-llm-free](https://github.com/nbhson/app-auto-llm-free) | One endpoint for all free LLMs — 43 providers / 324 models · Hono + Bun · OpenAI-compatible |
+| [app-project-knowledge](https://github.com/nbhson/app-project-knowledge) | Project Knowledge Harness — 6-engine knowledge system (Python / FastAPI) |
 | [app-gemini-chat](https://github.com/nbhson/app-gemini-chat) | AI chat app using Gemini API |
-| [toeic-container](https://github.com/nbhson/toeic-container) | **Monorepo** — TOEIC Reading (Angular + Express + OmniRoute) |
+| [toeic-container](https://github.com/nbhson/toeic-container) | Monorepo — TOEIC Reading (Angular + Express + OmniRoute) |
 | [app-agnes-studio](https://github.com/nbhson/app-agnes-studio) | Agnes Studio — creative web application |
 | [app-english-speaking](https://github.com/nbhson/app-english-speaking) | English speaking practice application |
 | [app-ollama-local-chat](https://github.com/nbhson/app-ollama-local-chat) | Local AI chat using Ollama |
-| [app-lock-tab](https://github.com/nbhson/app-lock-tab) | Chrome extension to lock browser tabs with password |
+| [app-lock-tab](https://github.com/nbhson/app-lock-tab) | Chrome extension — lock browser tabs with password |
 | [app-youtube-player](https://github.com/nbhson/app-youtube-player) | YouTube player app |
-| [app-live-translate-extension](https://github.com/nbhson/app-live-translate-extension) | Chrome extension for live translation |
-| [app-time-zone-extension](https://github.com/nbhson/app-time-zone-extension) | Chrome extension for time zones |
+| [app-live-translate-extension](https://github.com/nbhson/app-live-translate-extension) | Chrome extension — live translation |
+| [app-time-zone-extension](https://github.com/nbhson/app-time-zone-extension) | Chrome extension — time zones |
 | [app-toeic](https://github.com/nbhson/app-toeic) | TOEIC practice application |
 | [app-glb-viewer](https://github.com/nbhson/app-glb-viewer) | 3D GLB model viewer |
-| [app-speech-to-text](https://github.com/nbhson/app-speech-to-text) | Speech to text application |
+| [app-speech-to-text](https://github.com/nbhson/app-speech-to-text) | Speech-to-text application |
 | [app-anh-va-em](https://github.com/nbhson/app-anh-va-em) | Personal web app |
 | [app-storytelling](https://github.com/nbhson/app-storytelling) | Storytelling web app |
 | [app-interest-rate](https://github.com/nbhson/app-interest-rate) | Interest rate calculator |
 | [app-vue-example](https://github.com/nbhson/app-vue-example) | Vue.js example application |
 
-### 🎓 Tutorials (13 repos)
+</details>
+
+<details>
+<summary><b>🎓 Tutorials — 13</b></summary>
+
 | Repository | Description |
-|-----------|-------------|
+|------------|-------------|
 | [tutorial-angular](https://github.com/nbhson/tutorial-angular) | Angular framework tutorials & examples |
 | [tutorial-docker](https://github.com/nbhson/tutorial-docker) | Docker tutorials & examples |
 | [tutorial-database](https://github.com/nbhson/tutorial-database) | Database tutorials (MongoDB, MySQL) |
@@ -213,25 +194,33 @@ const SON_NGUYEN = {
 | [tutorial-reactive-programming](https://github.com/nbhson/tutorial-reactive-programming) | Reactive programming tutorials |
 | [tutorial-functional-programming](https://github.com/nbhson/tutorial-functional-programming) | Functional programming tutorials |
 
-### 🔧 Tools (12 repos)
+</details>
+
+<details>
+<summary><b>🔧 Tools — 12</b></summary>
+
 | Repository | Description |
-|-----------|-------------|
+|------------|-------------|
 | [tool-bitbucket-mcp](https://github.com/nbhson/tool-bitbucket-mcp) | MCP server for Bitbucket integration |
 | [tool-macos-builder](https://github.com/nbhson/tool-macos-builder) | macOS build automation tool |
-| [tool-web-socket](https://github.com/nbhson/tool-web-socket) | WebSocket implementation tool |
+| [tool-web-socket](https://github.com/nbhson/tool-web-socket) | WebSocket implementation |
 | [tool-web-socket-express](https://github.com/nbhson/tool-web-socket-express) | WebSocket + Express static file server |
-| [tool-web-api](https://github.com/nbhson/tool-web-api) | Web API boilerplate tool |
-| [tool-srich-editor](https://github.com/nbhson/tool-srich-editor) | Rich text editor tool |
+| [tool-web-api](https://github.com/nbhson/tool-web-api) | Web API boilerplate |
+| [tool-srich-editor](https://github.com/nbhson/tool-srich-editor) | Rich text editor |
 | [tool-git-book-reader](https://github.com/nbhson/tool-git-book-reader) | Git book reader (Swift) |
 | [tool-ai-local-supporter](https://github.com/nbhson/tool-ai-local-supporter) | Local AI support tool (Python) |
-| [tool-auto-collect-your-work](https://github.com/nbhson/tool-auto-collect-your-work) | Auto collect your work tool (Python) |
-| [tool-harness-generate-slide](https://github.com/nbhson/tool-harness-generate-slide) | Slide generation harness tool (TypeScript) |
-| [claude-code-free](https://github.com/nbhson/claude-code-free) | Free Claude Code command-line coding agent |
+| [tool-auto-collect-your-work](https://github.com/nbhson/tool-auto-collect-your-work) | Auto collect your work (Python) |
+| [tool-harness-generate-slide](https://github.com/nbhson/tool-harness-generate-slide) | Slide generation harness (TypeScript) |
+| [claude-code-free](https://github.com/nbhson/claude-code-free) | Free Claude Code CLI agent |
 | [test-hai](https://github.com/nbhson/test-hai) | Testing utilities and experiments |
 
-### 🧠 Knowledge (8 repos)
+</details>
+
+<details>
+<summary><b>🧠 Knowledge — 8</b></summary>
+
 | Repository | Description |
-|-----------|-------------|
+|------------|-------------|
 | [knowledge-programming-foundations](https://github.com/nbhson/knowledge-programming-foundations) | Programming fundamentals & core concepts |
 | [knowledge-ai](https://github.com/nbhson/knowledge-ai) | AI & Machine Learning knowledge |
 | [knowledge-soft-skills](https://github.com/nbhson/knowledge-soft-skills) | Soft skills & career development |
@@ -241,37 +230,37 @@ const SON_NGUYEN = {
 | [knowledge-version-control](https://github.com/nbhson/knowledge-version-control) | Git & version control |
 | [knowledge-technical-scrolling](https://github.com/nbhson/knowledge-technical-scrolling) | Technical scrolling techniques |
 
-### 🎨 Templates (3 repos)
-| Repository | Description |
-|-----------|-------------|
-| [template-morphin-premium-landing](https://github.com/nbhson/template-morphin-premium-landing) | Premium landing page template |
-| [template-storytelling](https://github.com/nbhson/template-storytelling) | Cinematic scroll-driven landing template — React 19, Next.js 15, Three.js, GSAP |
-| [template-webgl-hybird](https://github.com/nbhson/template-webgl-hybird) | WebGL hybrid rendering template |
+</details>
 
-### 📂 Projects (2 repos)
+<details>
+<summary><b>🎨 Templates — 3 · 📂 Projects — 2</b></summary>
+
 | Repository | Description |
-|-----------|-------------|
+|------------|-------------|
+| [template-morphin-premium-landing](https://github.com/nbhson/template-morphin-premium-landing) | Premium landing page template |
+| [template-storytelling](https://github.com/nbhson/template-storytelling) | Cinematic scroll-driven landing — React 19 · Next.js 15 · Three.js · GSAP |
+| [template-webgl-hybird](https://github.com/nbhson/template-webgl-hybird) | WebGL hybrid rendering template |
 | [project-collection](https://github.com/nbhson/project-collection) | Collection of various projects |
 | [project-nodejs-interview](https://github.com/nbhson/project-nodejs-interview) | Node.js interview preparation |
 
+</details>
+
 ---
 
-### ⚡ Quick Links
+### Connect
 
 ```bash
+npx sonnguyen        # CLI
 npm install sonnguyen
-# or
-npx sonnguyen
 ```
 
-**Favorite Tools:**
-- Open any repo in VS Code Web: [https://github.dev/nbhson/nbhson](https://github.dev/nbhson/nbhson)
-- Visualize repo: [https://gitdiagram.com/nbhson/app-project-knowledge](https://gitdiagram.com/nbhson/app-project-knowledge)
-- Diagrams: [https://gitdiagram.dev/](https://gitdiagram.dev/)
+- **VS Code Web:** [github.dev/nbhson/nbhson](https://github.dev/nbhson/nbhson) · **Diagrams:** [gitdiagram.com](https://gitdiagram.com/nbhson/app-human-attention-infrastructure) · **Repo graph:** `https://gitdiagram.com/nbhson/<repo>`
+- Prefer email for collaborations — response within 24h.
 
 ---
 
 <p align="center">
-  <i>“Teaching • Sharing knowledge • Building tools for humans”</i><br/>
-  <sub>Updated: 2026-09-06 • Auto-sync via <code>gh api users/nbhson/repos</code></sub>
+  <sub>Professional focus: clean boundaries · provable metrics · auditable provenance · human-in-the-loop</sub><br/>
+  <i>“Teaching · Sharing knowledge · Building tools for humans”</i><br/>
+  <sub>Updated 2026-09-06 · <code>58 repos</code> · <a href="https://github.com/nbhson/nbhson/commits/master">changelog</a></sub>
 </p>
