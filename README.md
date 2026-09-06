@@ -26,6 +26,15 @@
 
 ---
 
+<table>
+<tr>
+<td width="36%" valign="middle" align="center">
+
+<img src="https://media.giphy.com/media/l3q2WMhNcyFOWP280/giphy.gif" width="320" alt="About" />
+
+</td>
+<td width="64%" valign="top">
+
 ### About
 
 I build **review infrastructure, knowledge systems, and developer tools** where **AI handles the flood and humans keep the decision**. Focused on clean boundaries, provable metrics, and auditability — from MCP integrations to attention scoring.
@@ -50,6 +59,10 @@ const SON_NGUYEN = {
   currentlyBuilding: ["HAI Harness — PR Review Control Plane", "Project Knowledge Harness (PKH)", "Free LLM Gateway"],
 };
 ```
+
+</td>
+</tr>
+</table>
 
 ---
 
