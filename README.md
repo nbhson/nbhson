@@ -65,7 +65,7 @@ const SON_NGUYEN = {
     misc: ["WebSocket", "Chrome Extensions", "NetworkX", "tree-sitter"],
   },
   architecture: ["SPA", "MVVM", "Micro Frontend", "Monorepo", "Polyglot Persistence"],
-  currentlyBuilding: ["Project Knowledge Harness (PKH)", "Free LLM Gateway (43 providers / 324 models)"],
+  currentlyBuilding: ["HAI Harness — PR Review Control Plane ⭐", "Project Knowledge Harness (PKH)", "Free LLM Gateway (43 providers / 324 models)"],
   passion: ["teaching", "sharing knowledge", "building tools for humans"],
 };
 ```
@@ -92,9 +92,9 @@ const SON_NGUYEN = {
 
 ### 🚀 Currently Building
 
+- ⭐ **HAI Harness** — `app-human-attention-infrastructure` — **FEATURED** — AI PR review control plane (MCP · Fastify · React · Postgres · OTel). Paste PR URL → AI report + findings + fix suggestions → human decides. `v0.6.0-harness · 25 packages · 149 tests`
 - 🔭 **Project Knowledge Harness (PKH)** — `app-project-knowledge` — continuously evolving, model-independent knowledge system (Git/Confluence/Jira → AST → Knowledge Graph). Stack: `Python · FastAPI · tree-sitter · ChromaDB · NetworkX` — 6-engine pipeline.
 - 🌐 **Free LLM Gateway** — `app-auto-llm-free` — One OpenAI-compatible endpoint aggregating **43 providers · 324 models · 100% FREE** (Hono + Bun, Smart Routing + Fallback). Self-hosted, BYOK, `$0`.
-- 🧩 **MCP Ecosystem** — `tool-bitbucket-mcp` + Chrome Extensions (`app-lock-tab`, `app-live-translate-extension`)
 
 ---
 
@@ -110,6 +110,65 @@ const SON_NGUYEN = {
 
 ---
 
+## ⭐ Featured — HAI Harness · Human-Attention Infrastructure
+
+> **AI reviews external PRs; a human decides.** Paste a PR/MR URL (+ Jira ticket) → harness fetches diff + requirement via MCP, asks AI to review, stores report + findings + fix suggestions. Every step lands in an append-only event log — replayable, auditable.
+
+<p align="center">
+  <a href="https://github.com/nbhson/app-human-attention-infrastructure">
+    <img src="https://raw.githubusercontent.com/nbhson/app-human-attention-infrastructure/main/HAI.png" width="85%" alt="HAI Review UI" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/nbhson/app-human-attention-infrastructure"><img src="https://img.shields.io/badge/repo-app--human--attention--infrastructure-58A6FF?style=flat-square&logo=github" alt="app-human-attention-infrastructure" /></a>
+  <a href="https://github.com/nbhson/human-attention-infrastructure-harness"><img src="https://img.shields.io/badge/mirror-human--attention--infrastructure--harness-24292f?style=flat-square&logo=github" alt="mirror" /></a>
+  <img src="https://img.shields.io/badge/version-v0.6.0--harness-7a3f3f?style=flat-square" alt="v0.6.0-harness" />
+  <img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square" alt="Apache-2.0" />
+  <img src="https://img.shields.io/badge/node-%E2%89%A5%2020-339933?style=flat-square&logo=node.js" alt="Node >=20" />
+  <img src="https://img.shields.io/badge/pnpm-9.15.4-F69220?style=flat-square&logo=pnpm" alt="pnpm" />
+</p>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🔍 What it does**
+- `POST /api/reviews { prUrl, jiraTicket? }` → `202 Accepted` — fetches PR (GitHub/GitLab/Bitbucket) + Jira via **MCP** (`mcp.config.json`)
+- **AI review** (Anthropic / OpenAI-compatible) → `review_reports` + `review_findings` + `fix_suggestions`
+- **Verify** in Docker sandbox (build + test) — flags report, never authors fix
+- **Human decision** `approve / request-changes / reject` + **toggle-gated write-back** → PR/MR + Jira (`writeback_log`)
+- Attention metric `flaggedFiles / totalFiles` — file-based, bias-proof, Breakdown tab
+
+</td>
+<td width="50%" valign="top">
+
+**🏗️ How it's built**
+- **Stack:** `TypeScript · Fastify · React (Vite) · PostgreSQL 16 (Drizzle) · OpenTelemetry · Docker`
+- **Boundary:** 25 `@harness/*` packages — engines never import another engine
+- **Status:** `v0.6.0-harness` — review-only control plane (`review-reorient` pivot)
+- **Quality:** `149 test files · 51 tables · 7 e2e` · `build ✅ typecheck ✅ lint ✅`
+- **Ops:** Event log `correlation_id`, LLM-as-judge, memory tiers, closed learning loop
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/nbhson/app-human-attention-infrastructure">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nbhson&repo=app-human-attention-infrastructure&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/nbhson/human-attention-infrastructure-harness">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nbhson&repo=human-attention-infrastructure-harness&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>Flow: <code>Settings (MCP/Jira/AI) → POST /api/reviews → ReviewWorkerSubscriber → Report UI → Decision → Write-back</code> · Pivot retired code-gen keep review/verify/attention/provenance · <a href="https://github.com/nbhson/app-human-attention-infrastructure/blob/main/docs/retros/phase3-exit-review.md">exit review</a></sub>
+</p>
+
+---
+
 ## 📚 My Repositories — 58 Public
 
 > `58` repos • Last updated: **2026-09-06** • `npx sonnguyen` — always evolving
@@ -119,11 +178,11 @@ const SON_NGUYEN = {
 |-----------|-------------|
 | [app-auto-llm-free](https://github.com/nbhson/app-auto-llm-free) | 🌟 **NEW** — One endpoint for all free LLMs — 43 providers / 324 models · Hono + Bun · OpenAI-compatible |
 | [app-project-knowledge](https://github.com/nbhson/app-project-knowledge) | 🌟 **NEW** — Project Knowledge Harness — 6-engine knowledge system (Python/FastAPI) |
+| [app-human-attention-infrastructure](https://github.com/nbhson/app-human-attention-infrastructure) | ⭐ **FEATURED** — HAI Harness — PR review control plane — AI reviews PR + Jira via MCP → findings + fixes → human decides · `v0.6.0 · TS/Fastify/React/Postgres/OTel · 25 packages` |
 | [app-gemini-chat](https://github.com/nbhson/app-gemini-chat) | AI chat app using Gemini API |
 | [toeic-container](https://github.com/nbhson/toeic-container) | **Monorepo** — TOEIC Reading (Angular + Express + OmniRoute) |
 | [app-agnes-studio](https://github.com/nbhson/app-agnes-studio) | Agnes Studio — creative web application |
 | [app-english-speaking](https://github.com/nbhson/app-english-speaking) | English speaking practice application |
-| [app-human-attention-infrastructure](https://github.com/nbhson/app-human-attention-infrastructure) | Human attention infrastructure research app |
 | [app-ollama-local-chat](https://github.com/nbhson/app-ollama-local-chat) | Local AI chat using Ollama |
 | [app-lock-tab](https://github.com/nbhson/app-lock-tab) | Chrome extension to lock browser tabs with password |
 | [app-youtube-player](https://github.com/nbhson/app-youtube-player) | YouTube player app |
