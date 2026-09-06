@@ -43,6 +43,10 @@ I build **review infrastructure, knowledge systems, and developer tools** where 
 - **Principles:** Evidence before confidence · Human attention is scarce · Full provenance · Shadow-then-default
 - **Open to:** Architecture reviews, MCP/tooling collaborations, knowledge & AI infrastructure discussions
 
+</td>
+</tr>
+</table>
+
 ```javascript
 const SON_NGUYEN = {
   role: "Software Engineer @ TMA Solutions",
@@ -59,10 +63,6 @@ const SON_NGUYEN = {
   currentlyBuilding: ["HAI Harness — PR Review Control Plane", "Project Knowledge Harness (PKH)", "Free LLM Gateway"],
 };
 ```
-
-</td>
-</tr>
-</table>
 
 ---
 
