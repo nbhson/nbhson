@@ -87,9 +87,9 @@ const SON_NGUYEN = {
 
 | Project | What it is | Stack |
 |---------|------------|-------|
-| **⭐ HAI Harness** — [`app-human-attention-infrastructure`](https://github.com/nbhson/app-human-attention-infrastructure) | **PR review control plane.** AI reviews external PRs, human decides. `v0.6.0-harness · 25 packages · 149 tests · 7 e2e` | TS · Fastify · React Vite · Postgres Drizzle · OTel · Docker · MCP |
-| **Project Knowledge Harness** — [`app-project-knowledge`](https://github.com/nbhson/app-project-knowledge) | Model-independent knowledge system (Git/Confluence/Jira → AST → Graph) | Python · FastAPI · tree-sitter · ChromaDB · NetworkX |
-| **Free LLM Gateway** — [`app-auto-llm-free`](https://github.com/nbhson/app-auto-llm-free) | One OpenAI-compatible endpoint — 43 providers · 324 models · 100% free | Hono + Bun · Smart routing · Fallback |
+| **⭐⭐ HAI Harness** — [`app-human-attention-infrastructure`](https://github.com/nbhson/app-human-attention-infrastructure) | **PR review control plane.** AI reviews external PRs, human decides. `v0.6.0-harness · 25 packages · 149 tests · 7 e2e` | TS · Fastify · React Vite · Postgres Drizzle · OTel · Docker · MCP |
+| **⭐Project Knowledge Harness** — [`app-project-knowledge`](https://github.com/nbhson/app-project-knowledge) | Model-independent knowledge system (Git/Confluence/Jira → AST → Graph) | Python · FastAPI · tree-sitter · ChromaDB · NetworkX |
+| **⭐Free LLM Gateway** — [`app-auto-llm-free`](https://github.com/nbhson/app-auto-llm-free) | One OpenAI-compatible endpoint — 43 providers · 324 models · 100% free | Hono + Bun · Smart routing · Fallback |
 
 ---
 
