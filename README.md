@@ -39,7 +39,7 @@
 
 I build **review infrastructure, knowledge systems, and developer tools** where **AI handles the flood and humans keep the decision**. Focused on clean boundaries, provable metrics, and auditability — from MCP integrations to attention scoring.
 
-- **Current focus:** HAI Harness (PR review control plane), Live Translate Web (real-time EN caption + VI translate), Project Knowledge Harness (6-engine knowledge system), Free LLM Gateway (43 providers / 324 models)
+- **Current focus:** HAI Harness (PR review control plane), Free LLM Gateway (43 providers / 324 models), Project Knowledge Harness (6-engine knowledge system), Live Translate Web (real-time EN caption + VI translate)
 - **Principles:** Evidence before confidence · Human attention is scarce · Full provenance · Shadow-then-default
 - **Open to:** Architecture reviews, MCP/tooling collaborations, knowledge & AI infrastructure discussions
 
@@ -60,7 +60,7 @@ const SON_NGUYEN = {
     ai: ["Gemini API", "OpenAI-compatible Gateway", "Ollama / Local AI", "Speech-to-Text", "MCP"],
   },
   architecture: ["SPA", "MVVM", "Micro Frontend", "Monorepo", "Polyglot Persistence"],
-  currentlyBuilding: ["HAI Harness — PR Review Control Plane", "Live Translate Web — Real-time Caption & Translate", "Project Knowledge Harness (PKH)", "Free LLM Gateway"],
+  currentlyBuilding: ["HAI Harness — PR Review Control Plane", "Free LLM Gateway", "Project Knowledge Harness (PKH)", "Live Translate Web — Real-time Caption & Translate"],
 };
 ```
 
@@ -88,9 +88,9 @@ const SON_NGUYEN = {
 | Project | What it is | Stack |
 |---------|------------|-------|
 | **⭐⭐⭐ HAI Harness** — [`app-human-attention-infrastructure`](https://github.com/nbhson/app-human-attention-infrastructure) | **PR review control plane.** AI reviews external PRs, human decides. `v0.6.0-harness · 25 packages · 149 tests · 7 e2e` | TS · Fastify · React Vite · Postgres Drizzle · OTel · Docker · MCP |
-| **⭐⭐ Live Translate Web** — [`app-live-translate-web`](https://github.com/nbhson/app-live-translate-web) | **Real-time EN caption + VI translate.** Any tab/system audio → live caption & parallel translate, <1.5s latency. Web + Extension + Tauri | Next.js 15 · FastAPI · Deepgram · Web Speech · Socket.io · Tauri · pnpm Monorepo |
+| **⭐⭐ Free LLM Gateway** — [`app-auto-llm-free`](https://github.com/nbhson/app-auto-llm-free) | One OpenAI-compatible endpoint — 43 providers · 324 models · 100% free | Hono + Bun · Smart routing · Fallback |
 | **⭐ Project Knowledge Harness** — [`app-project-knowledge`](https://github.com/nbhson/app-project-knowledge) | Model-independent knowledge system (Git/Confluence/Jira → AST → Graph) | Python · FastAPI · tree-sitter · ChromaDB · NetworkX |
-| **⭐ Free LLM Gateway** — [`app-auto-llm-free`](https://github.com/nbhson/app-auto-llm-free) | One OpenAI-compatible endpoint — 43 providers · 324 models · 100% free | Hono + Bun · Smart routing · Fallback |
+| **⭐ Live Translate Web** — [`app-live-translate-web`](https://github.com/nbhson/app-live-translate-web) | **Real-time EN caption + VI translate.** Any tab/system audio → live caption & parallel translate, <1.5s latency. Web + Extension + Tauri | Next.js 15 · FastAPI · Deepgram · Web Speech · Socket.io · Tauri · pnpm Monorepo |
 
 ---
 
@@ -168,9 +168,9 @@ const SON_NGUYEN = {
 | Repository | Description |
 |------------|-------------|
 | [app-human-attention-infrastructure](https://github.com/nbhson/app-human-attention-infrastructure) | ⭐⭐⭐ **Featured** — HAI Harness — PR review control plane · `v0.6.0 · TS/Fastify/React/Postgres/OTel · 25 packages` |
-| [app-live-translate-web](https://github.com/nbhson/app-live-translate-web) | ⭐⭐ **Featured** — Live Translate Web — real-time EN caption + VI translate · `Next.js 15/FastAPI/Deepgram/Web Speech/Socket.io/Tauri` · Web + Extension + Tauri · latency <1.5s |
-| [app-auto-llm-free](https://github.com/nbhson/app-auto-llm-free) | ⭐ One endpoint for all free LLMs — 43 providers / 324 models · Hono + Bun · OpenAI-compatible |
+| [app-auto-llm-free](https://github.com/nbhson/app-auto-llm-free) | ⭐⭐ One endpoint for all free LLMs — 43 providers / 324 models · Hono + Bun · OpenAI-compatible |
 | [app-project-knowledge](https://github.com/nbhson/app-project-knowledge) | ⭐ Project Knowledge Harness — 6-engine knowledge system (Python / FastAPI) |
+| [app-live-translate-web](https://github.com/nbhson/app-live-translate-web) | ⭐ Live Translate Web — real-time EN caption + VI translate · `Next.js 15/FastAPI/Deepgram/Web Speech/Socket.io/Tauri` · Web + Extension + Tauri · latency <1.5s |
 | [app-gemini-chat](https://github.com/nbhson/app-gemini-chat) | AI chat app using Gemini API |
 | [toeic-container](https://github.com/nbhson/toeic-container) | Monorepo — TOEIC Reading (Angular + Express + OmniRoute) |
 | [app-agnes-studio](https://github.com/nbhson/app-agnes-studio) | Agnes Studio — creative web application |
