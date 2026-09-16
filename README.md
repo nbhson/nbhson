@@ -39,7 +39,7 @@
 
 I build **review infrastructure, knowledge systems, and developer tools** where **AI handles the flood and humans keep the decision**. Focused on clean boundaries, provable metrics, and auditability — from MCP integrations to attention scoring.
 
-- **Current focus:** HAI Harness (PR review control plane), Project Knowledge Harness (6-engine knowledge system), Free LLM Gateway (43 providers / 324 models)
+- **Current focus:** HAI Harness (PR review control plane), Live Translate Web (real-time EN caption + VI translate), Project Knowledge Harness (6-engine knowledge system), Free LLM Gateway (43 providers / 324 models)
 - **Principles:** Evidence before confidence · Human attention is scarce · Full provenance · Shadow-then-default
 - **Open to:** Architecture reviews, MCP/tooling collaborations, knowledge & AI infrastructure discussions
 
@@ -60,7 +60,7 @@ const SON_NGUYEN = {
     ai: ["Gemini API", "OpenAI-compatible Gateway", "Ollama / Local AI", "Speech-to-Text", "MCP"],
   },
   architecture: ["SPA", "MVVM", "Micro Frontend", "Monorepo", "Polyglot Persistence"],
-  currentlyBuilding: ["HAI Harness — PR Review Control Plane", "Project Knowledge Harness (PKH)", "Free LLM Gateway"],
+  currentlyBuilding: ["HAI Harness — PR Review Control Plane", "Live Translate Web — Real-time Caption & Translate", "Project Knowledge Harness (PKH)", "Free LLM Gateway"],
 };
 ```
 
@@ -88,6 +88,7 @@ const SON_NGUYEN = {
 | Project | What it is | Stack |
 |---------|------------|-------|
 | **⭐⭐⭐ HAI Harness** — [`app-human-attention-infrastructure`](https://github.com/nbhson/app-human-attention-infrastructure) | **PR review control plane.** AI reviews external PRs, human decides. `v0.6.0-harness · 25 packages · 149 tests · 7 e2e` | TS · Fastify · React Vite · Postgres Drizzle · OTel · Docker · MCP |
+| **⭐⭐ Live Translate Web** — [`app-live-translate-web`](https://github.com/nbhson/app-live-translate-web) | **Real-time EN caption + VI translate.** Any tab/system audio → live caption & parallel translate, <1.5s latency. Web + Extension + Tauri | Next.js 15 · FastAPI · Deepgram · Web Speech · Socket.io · Tauri · pnpm Monorepo |
 | **⭐ Project Knowledge Harness** — [`app-project-knowledge`](https://github.com/nbhson/app-project-knowledge) | Model-independent knowledge system (Git/Confluence/Jira → AST → Graph) | Python · FastAPI · tree-sitter · ChromaDB · NetworkX |
 | **⭐ Free LLM Gateway** — [`app-auto-llm-free`](https://github.com/nbhson/app-auto-llm-free) | One OpenAI-compatible endpoint — 43 providers · 324 models · 100% free | Hono + Bun · Smart routing · Fallback |
 
@@ -157,16 +158,17 @@ const SON_NGUYEN = {
 
 ---
 
-## Repositories — 58 Public
+## Repositories — 59 Public
 
-> Last synced **2026-09-06** via `gh api users/nbhson/repos` · `npx sonnguyen`
+> Last synced **2026-09-16** via `gh api users/nbhson/repos` · `npx sonnguyen`
 
 <details open>
-<summary><b>📱 Applications — 19</b></summary>
+<summary><b>📱 Applications — 20</b></summary>
 
 | Repository | Description |
 |------------|-------------|
 | [app-human-attention-infrastructure](https://github.com/nbhson/app-human-attention-infrastructure) | ⭐⭐⭐ **Featured** — HAI Harness — PR review control plane · `v0.6.0 · TS/Fastify/React/Postgres/OTel · 25 packages` |
+| [app-live-translate-web](https://github.com/nbhson/app-live-translate-web) | ⭐⭐ **Featured** — Live Translate Web — real-time EN caption + VI translate · `Next.js 15/FastAPI/Deepgram/Web Speech/Socket.io/Tauri` · Web + Extension + Tauri · latency <1.5s |
 | [app-auto-llm-free](https://github.com/nbhson/app-auto-llm-free) | ⭐ One endpoint for all free LLMs — 43 providers / 324 models · Hono + Bun · OpenAI-compatible |
 | [app-project-knowledge](https://github.com/nbhson/app-project-knowledge) | ⭐ Project Knowledge Harness — 6-engine knowledge system (Python / FastAPI) |
 | [app-gemini-chat](https://github.com/nbhson/app-gemini-chat) | AI chat app using Gemini API |
@@ -275,5 +277,5 @@ npm install sonnguyen
 <p align="center">
   <sub>Professional focus: clean boundaries · provable metrics · auditable provenance · human-in-the-loop</sub><br/>
   <i>“Teaching · Sharing knowledge · Building tools for humans”</i><br/>
-  <sub>Updated 2026-09-06 · <code>58 repos</code> · <a href="https://github.com/nbhson/nbhson/commits/master">changelog</a></sub>
+  <sub>Updated 2026-09-16 · <code>59 repos</code> · <a href="https://github.com/nbhson/nbhson/commits/master">changelog</a></sub>
 </p>
