@@ -91,6 +91,7 @@ const SON_NGUYEN = {
 | **⭐⭐ Free LLM Gateway** — [`app-auto-llm-free`](https://github.com/nbhson/app-auto-llm-free) | One OpenAI-compatible endpoint — 43 providers · 324 models · 100% free | Hono + Bun · Smart routing · Fallback |
 | **⭐ Project Knowledge Harness** — [`app-project-knowledge`](https://github.com/nbhson/app-project-knowledge) | Model-independent knowledge system (Git/Confluence/Jira → AST → Graph) | Python · FastAPI · tree-sitter · ChromaDB · NetworkX |
 | **⭐ Live Translate Web** — [`app-live-translate-web`](https://github.com/nbhson/app-live-translate-web) | **Real-time EN caption + VI translate.** Any tab/system audio → live caption & parallel translate, <1.5s latency. Web + Extension + Tauri | Next.js 15 · FastAPI · Deepgram · Web Speech · Socket.io · Tauri · pnpm Monorepo |
+| **⭐ English Speaking Coach** — [`app-english-speaking`](https://github.com/nbhson/app-english-speaking) | **AI English speaking coach for developers.** Voice practice across Daily / Meeting / Presentation / Custom Class / VN→EN — real-time correction, markdown lessons, assessment dashboard, SQLite library | React 19 · Express · SQLite · Web Speech · react-markdown · npm Monorepo |
 
 ---
 
@@ -174,7 +175,7 @@ const SON_NGUYEN = {
 | [app-gemini-chat](https://github.com/nbhson/app-gemini-chat) | AI chat app using Gemini API |
 | [toeic-container](https://github.com/nbhson/toeic-container) | Monorepo — TOEIC Reading (Angular + Express + OmniRoute) |
 | [app-agnes-studio](https://github.com/nbhson/app-agnes-studio) | Agnes Studio — creative web application |
-| [app-english-speaking](https://github.com/nbhson/app-english-speaking) | English speaking practice application |
+| [app-english-speaking](https://github.com/nbhson/app-english-speaking) | ⭐ English Speaking Coach — AI voice practice (Daily/Meeting/Presentation/Custom Class/VN→EN) · React 19/Express/SQLite |
 | [app-ollama-local-chat](https://github.com/nbhson/app-ollama-local-chat) | Local AI chat using Ollama |
 | [app-lock-tab](https://github.com/nbhson/app-lock-tab) | Chrome extension — lock browser tabs with password |
 | [app-youtube-player](https://github.com/nbhson/app-youtube-player) | YouTube player app |
