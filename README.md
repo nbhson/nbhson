@@ -39,7 +39,7 @@
 
 I build **review infrastructure, knowledge systems, and developer tools** where **AI handles the flood and humans keep the decision**. Focused on clean boundaries, provable metrics, and auditability — from MCP integrations to attention scoring.
 
-- **Current focus:** HAI Harness (PR review control plane), Free LLM Gateway (43 providers / 324 models), Project Knowledge Harness (6-engine knowledge system), Live Translate Web (real-time EN caption + VI translate)
+- **Current focus:** HAI Harness (PR review control plane), Free LLM Gateway (43 providers / 324 models), Bitbucket MCP Server (39 tools · `sbitbucket-mcp-server`), Project Knowledge Harness (6-engine knowledge system), Live Translate Web (real-time EN caption + VI translate)
 - **Principles:** Evidence before confidence · Human attention is scarce · Full provenance · Shadow-then-default
 - **Open to:** Architecture reviews, MCP/tooling collaborations, knowledge & AI infrastructure discussions
 
@@ -60,7 +60,7 @@ const SON_NGUYEN = {
     ai: ["Gemini API", "OpenAI-compatible Gateway", "Ollama / Local AI", "Speech-to-Text", "MCP"],
   },
   architecture: ["SPA", "MVVM", "Micro Frontend", "Monorepo", "Polyglot Persistence"],
-  currentlyBuilding: ["HAI Harness — PR Review Control Plane", "Free LLM Gateway", "Project Knowledge Harness (PKH)", "Live Translate Web — Real-time Caption & Translate"],
+  currentlyBuilding: ["HAI Harness — PR Review Control Plane", "Free LLM Gateway", "Bitbucket MCP Server — 39 tools", "Project Knowledge Harness (PKH)", "Live Translate Web — Real-time Caption & Translate"],
 };
 ```
 
@@ -89,6 +89,7 @@ const SON_NGUYEN = {
 |---------|------------|-------|
 | **⭐⭐⭐ HAI Harness** — [`app-human-attention-infrastructure`](https://github.com/nbhson/app-human-attention-infrastructure) | **PR review control plane.** AI reviews external PRs, human decides. `v0.6.0-harness · 25 packages · 149 tests · 7 e2e` | TS · Fastify · React Vite · Postgres Drizzle · OTel · Docker · MCP |
 | **⭐⭐ Free LLM Gateway** — [`app-auto-llm-free`](https://github.com/nbhson/app-auto-llm-free) | One OpenAI-compatible endpoint — 43 providers · 324 models · 100% free | Hono + Bun · Smart routing · Fallback |
+| **⭐⭐ Bitbucket MCP Server** — [`tool-bitbucket-mcp`](https://github.com/nbhson/tool-bitbucket-mcp) | **Bitbucket Server/Data Center via MCP — 39 tools.** PRs + reviews + comments/tasks + branches + commits + search (`grep`/`search_code`) · `npx sbitbucket-mcp-server` · `v1.4.0 · 57 tests` | TS · stdio + Streamable HTTP · Docker · PAT · zod · Vitest |
 | **⭐ Project Knowledge Harness** — [`app-project-knowledge`](https://github.com/nbhson/app-project-knowledge) | Model-independent knowledge system (Git/Confluence/Jira → AST → Graph) | Python · FastAPI · tree-sitter · ChromaDB · NetworkX |
 | **⭐ Live Translate Web** — [`app-live-translate-web`](https://github.com/nbhson/app-live-translate-web) | **Real-time EN caption + VI translate.** Any tab/system audio → live caption & parallel translate, <1.5s latency. Web + Extension + Tauri | Next.js 15 · FastAPI · Deepgram · Web Speech · Socket.io · Tauri · pnpm Monorepo |
 | **⭐ English Speaking Coach** — [`app-english-speaking`](https://github.com/nbhson/app-english-speaking) | **AI English speaking coach for developers.** Voice practice across Daily / Meeting / Presentation / Custom Class / VN→EN — real-time correction, markdown lessons, assessment dashboard, SQLite library | React 19 · Express · SQLite · Web Speech · react-markdown · npm Monorepo |
@@ -217,7 +218,7 @@ const SON_NGUYEN = {
 
 | Repository | Description |
 |------------|-------------|
-| [tool-bitbucket-mcp](https://github.com/nbhson/tool-bitbucket-mcp) | MCP server for Bitbucket integration |
+| [tool-bitbucket-mcp](https://github.com/nbhson/tool-bitbucket-mcp) | ⭐⭐ Bitbucket MCP Server — 39 tools (PR/review/comment/task/branch/commit/`grep`) · `sbitbucket-mcp-server v1.4.0` · TS/stdio+HTTP/Docker |
 | [tool-macos-builder](https://github.com/nbhson/tool-macos-builder) | macOS build automation tool |
 | [tool-web-socket](https://github.com/nbhson/tool-web-socket) | WebSocket implementation |
 | [tool-web-socket-express](https://github.com/nbhson/tool-web-socket-express) | WebSocket + Express static file server |
