@@ -158,19 +158,18 @@ const SON_NGUYEN = {
 
 ---
 
-## 🆕 New This Month — October 2026 · 15 new repos
+## 🆕 Recently Created — Oct–Nov 2026 · 14 repos
 
-> Created in **October 2026**, newest first · synced via `gh api users/nbhson/repos`
+> Created **October–November 2026**, newest first · synced via `gh api users/nbhson/repos` · dọn dẹp profile: đã xoá 12 repo trùng lặp/
 
 | Repository | Created | Description |
 |------------|---------|-------------|
-| [tutorial-hub](https://github.com/nbhson/tutorial-hub) | 10-28 | Hub tổng — 20 khóa học lập trình tiếng Việt (đã review + chuẩn hóa) |
+| [skill-design-system](https://github.com/nbhson/skill-design-system) | 11-01 | 🆕 Design system skill — CSS tokens + 12 design styles |
 | [app-lottery-prediction](https://github.com/nbhson/app-lottery-prediction) | 10-28 | Vietlott prediction — Next.js + SQLite, đồng bộ kết quả thật từ vietlott.vn, dự đoán thống kê + AI |
 | [tool-universal-agent-recovery-mcp](https://github.com/nbhson/tool-universal-agent-recovery-mcp) | 10-28 | Auto-resume system cho coding agent — MCP server + watchdog tự resume task bị gián đoạn |
 | [tool-logwork-mcp](https://github.com/nbhson/tool-logwork-mcp) | 10-28 | Tempo Timesheet MCP Server — tích hợp Tempo + Jira Cloud với MCP clients |
 | [app-scoder-agent](https://github.com/nbhson/app-scoder-agent) | 10-27 | **scoder** — Autonomous Coding Agent CLI · Node.js |
 | [app-free-api-information-retrieval](https://github.com/nbhson/app-free-api-information-retrieval) | 10-27 | CLI khám phá, kiểm tra và tổng hợp danh sách LLM API provider miễn phí |
-| [skill-ui-ux](https://github.com/nbhson/skill-ui-ux) | 10-27 | Professional UI/UX skill set — 12 design styles + palettes, typography, anti-patterns |
 | [tutorial-english-speaking-theory](https://github.com/nbhson/tutorial-english-speaking-theory) | 10-25 | Lý thuyết luyện nói tiếng Anh + AI tools (shadowing, TTS, Anki SRS) |
 | [tutorial-open-claw](https://github.com/nbhson/tutorial-open-claw) | 10-23 | Hướng dẫn OpenClaw (tiếng Việt): local AI agent với llama.cpp + Ollama |
 | [tool-prompt-rewrite-mcp](https://github.com/nbhson/tool-prompt-rewrite-mcp) | 10-17 | Universal Prompt Gate MCP Server — review & select prompt trước khi gửi LLM |
@@ -180,14 +179,12 @@ const SON_NGUYEN = {
 | [tutorial-github-copilot](https://github.com/nbhson/tutorial-github-copilot) | 10-04 | Khóa học GitHub Copilot tiếng Việt: 18 bài, 47 lệnh, FAQ |
 | [tutorial-claude-code](https://github.com/nbhson/tutorial-claude-code) | 10-04 | Khóa học Claude Code tiếng Việt: 18 bài, hooks, MCP, subagents, skills |
 
----
+## Repositories — 65 Public
 
-## Repositories — 76 Public
-
-> Last synced **2026-10-29** via `gh api users/nbhson/repos` · `npx sonnguyen`
+> Last synced **2026-11-02** via `gh api users/nbhson/repos` · profile cleanup 11/2026: removed 12 stale/duplicate repos · `npx sonnguyen`
 
 <details open>
-<summary><b>📱 Applications — 25</b></summary>
+<summary><b>📱 Applications — 22</b></summary>
 
 | Repository | Description |
 |------------|-------------|
@@ -195,17 +192,15 @@ const SON_NGUYEN = {
 | [app-free-llm-gateway](https://github.com/nbhson/app-free-llm-gateway) | ⭐⭐ One endpoint for all free LLMs — 43 providers / 324 models · Hono + Bun · OpenAI-compatible |
 | [app-project-knowledge](https://github.com/nbhson/app-project-knowledge) | ⭐ Project Knowledge Harness — 6-engine knowledge system (Python / FastAPI) |
 | [app-live-translate-web](https://github.com/nbhson/app-live-translate-web) | ⭐ Live Translate Web — real-time EN caption + VI translate · `Next.js 15/FastAPI/Deepgram/Web Speech/Socket.io/Tauri` · Web + Extension + Tauri · latency <1.5s |
+| [app-english-speaking](https://github.com/nbhson/app-english-speaking) | ⭐ English Speaking Coach — AI voice practice (Daily/Meeting/Presentation/Custom Class/VN→EN) · React 19/Express/SQLite |
 | [app-lottery-prediction](https://github.com/nbhson/app-lottery-prediction) | 🆕 Vietlott prediction — Next.js + SQLite · dự đoán thống kê + AI (enterprise edition) |
 | [app-scoder-agent](https://github.com/nbhson/app-scoder-agent) | 🆕 scoder — Autonomous Coding Agent CLI |
 | [app-free-api-information-retrieval](https://github.com/nbhson/app-free-api-information-retrieval) | 🆕 CLI khám phá & tổng hợp LLM API provider miễn phí (Python) |
 | [app-photo-generative](https://github.com/nbhson/app-photo-generative) | 🆕 Generative Studio — AI image editor focus generative editing, non-destructive |
 | [app-translate-extension](https://github.com/nbhson/app-translate-extension) | 🆕 ViEn Translate + AI Rewrite — Chrome extension MV3, OpenAI-compatible |
 | [app-dating](https://github.com/nbhson/app-dating) | 🆕 Lumen — dating tối giản "Letters, not swipes": 20 bưu thiếp/ngày, không swipe · Next.js 16/Auth.js v5 |
-| [app-gemini-chat](https://github.com/nbhson/app-gemini-chat) | AI chat app using Gemini API |
+| [app-doc-analyzer](https://github.com/nbhson/app-doc-analyzer) | DocAnalyzer — Flask + Ollama: chat với tài liệu & phân tích code |
 | [app-toeic-container](https://github.com/nbhson/app-toeic-container) | Monorepo — TOEIC Reading (Angular + Express + OmniRoute) |
-| [app-agnes-studio](https://github.com/nbhson/app-agnes-studio) | Agnes Studio — creative web application |
-| [app-english-speaking](https://github.com/nbhson/app-english-speaking) | ⭐ English Speaking Coach — AI voice practice (Daily/Meeting/Presentation/Custom Class/VN→EN) · React 19/Express/SQLite |
-| [app-ollama-local-chat](https://github.com/nbhson/app-ollama-local-chat) | Local AI chat using Ollama |
 | [app-lock-tab-extension](https://github.com/nbhson/app-lock-tab-extension) | Chrome extension — lock browser tabs with password |
 | [app-youtube-player](https://github.com/nbhson/app-youtube-player) | YouTube player app |
 | [app-live-translate-extension](https://github.com/nbhson/app-live-translate-extension) | Chrome extension — live translation |
@@ -213,18 +208,16 @@ const SON_NGUYEN = {
 | [app-glb-viewer](https://github.com/nbhson/app-glb-viewer) | 3D GLB model viewer |
 | [app-speech-to-text](https://github.com/nbhson/app-speech-to-text) | Speech-to-text application |
 | [app-anh-va-em](https://github.com/nbhson/app-anh-va-em) | Personal web app |
-| [app-storytelling](https://github.com/nbhson/app-storytelling) | Storytelling web app |
+| [app-storytelling](https://github.com/nbhson/app-storytelling) | Scrollytelling notes — Memory / RAG / basic lessons |
 | [app-interest-rate](https://github.com/nbhson/app-interest-rate) | Interest rate calculator |
-| [app-vue-example](https://github.com/nbhson/app-vue-example) | Vue.js example application |
 
 </details>
 
 <details>
-<summary><b>🎓 Tutorials — 21</b></summary>
+<summary><b>🎓 Tutorials — 19</b></summary>
 
 | Repository | Description |
 |------------|-------------|
-| [tutorial-hub](https://github.com/nbhson/tutorial-hub) | 🆕 Hub tổng — 20 khóa học lập trình tiếng Việt |
 | [tutorial-react](https://github.com/nbhson/tutorial-react) | 🆕 Khóa học React 19.3 (tiếng Việt): 21 bài + RSC + Compiler + 47 câu interview |
 | [tutorial-opencode-2](https://github.com/nbhson/tutorial-opencode-2) | 🆕 Khóa học OpenCode v2 tiếng Việt: 19 bài + FAQ + templates |
 | [tutorial-claude-code](https://github.com/nbhson/tutorial-claude-code) | 🆕 Khóa học Claude Code tiếng Việt: 18 bài, hooks, MCP, subagents, skills |
@@ -232,7 +225,6 @@ const SON_NGUYEN = {
 | [tutorial-english-speaking-theory](https://github.com/nbhson/tutorial-english-speaking-theory) | 🆕 Lý thuyết luyện nói tiếng Anh + AI tools (shadowing, TTS, Anki SRS) |
 | [tutorial-open-claw](https://github.com/nbhson/tutorial-open-claw) | 🆕 Hướng dẫn OpenClaw (tiếng Việt): local AI agent với llama.cpp + Ollama |
 | [tutorial-frontend-skills](https://github.com/nbhson/tutorial-frontend-skills) | 🆕 Tổng hợp kỹ năng Frontend 2026: HTML/CSS/JS, React, Tailwind v4, Next.js, AI-assisted dev |
-| [tutorial-doc-analyzer](https://github.com/nbhson/tutorial-doc-analyzer) | DocAnalyzer — Flask + Ollama: chat với tài liệu & phân tích code |
 | [tutorial-angular](https://github.com/nbhson/tutorial-angular) | Khóa học Angular 22 (tiếng Việt): signals, SSR, Vitest, micro-frontend |
 | [tutorial-docker](https://github.com/nbhson/tutorial-docker) | Tutorial Docker từ cơ bản đến CI/CD: Engine 29, Compose v5, multi-stage |
 | [tutorial-vuejs](https://github.com/nbhson/tutorial-vuejs) | Khóa học Vue 3.5 (tiếng Việt): components, composables, Pinia, Router, Vitest, Nuxt |
@@ -249,7 +241,7 @@ const SON_NGUYEN = {
 </details>
 
 <details>
-<summary><b>🔧 Tools — 14</b></summary>
+<summary><b>🔧 Tools — 12</b></summary>
 
 | Repository | Description |
 |------------|-------------|
@@ -258,32 +250,29 @@ const SON_NGUYEN = {
 | [tool-logwork-mcp](https://github.com/nbhson/tool-logwork-mcp) | 🆕 Tempo Timesheet MCP Server — Tempo Timesheets + Jira Cloud |
 | [tool-prompt-rewrite-mcp](https://github.com/nbhson/tool-prompt-rewrite-mcp) | 🆕 Universal Prompt Gate MCP — review & select prompt trước khi gửi LLM |
 | [tool-autocomplete-suggestion](https://github.com/nbhson/tool-autocomplete-suggestion) | 🆕 SAutocomplete — grouped autocomplete input, dependency-free Vanilla TS + React/Vue/Angular wrappers |
-| [tool-macos-builder](https://github.com/nbhson/tool-macos-builder) | macOS build automation tool |
-| [tool-web-socket](https://github.com/nbhson/tool-web-socket) | WebSocket implementation |
-| [tool-web-socket-express](https://github.com/nbhson/tool-web-socket-express) | WebSocket + Express static file server |
-| [tool-web-api](https://github.com/nbhson/tool-web-api) | Web API boilerplate |
 | [tool-srich-editor](https://github.com/nbhson/tool-srich-editor) | Rich text editor |
 | [tool-git-book-reader](https://github.com/nbhson/tool-git-book-reader) | Git book reader (Swift) |
 | [tool-ai-local-supporter](https://github.com/nbhson/tool-ai-local-supporter) | Local AI support tool (Python) |
 | [tool-auto-collect-your-work](https://github.com/nbhson/tool-auto-collect-your-work) | Auto collect your work (Python) |
 | [tool-harness-generate-slide](https://github.com/nbhson/tool-harness-generate-slide) | Slide generation harness (TypeScript) |
+| [tool-web-socket](https://github.com/nbhson/tool-web-socket) | WebSocket implementation |
+| [tool-web-socket-express](https://github.com/nbhson/tool-web-socket-express) | WebSocket + Express static file server |
 
 </details>
 
 <details>
-<summary><b>🧠 Knowledge — 9</b></summary>
+<summary><b>🧠 Knowledge — 8</b></summary>
 
 | Repository | Description |
 |------------|-------------|
 | [knowledge-programming-foundations](https://github.com/nbhson/knowledge-programming-foundations) | Programming fundamentals & core concepts |
 | [knowledge-agent-foundation](https://github.com/nbhson/knowledge-agent-foundation) | 🆕 AI agent foundation — patterns & practices |
-| [knowledge-toeic](https://github.com/nbhson/knowledge-toeic) | 🆕 TOEIC learning knowledge base |
+| [knowledge-toeic](https://github.com/nbhson/knowledge-toeic) | TOEIC learning knowledge base |
 | [knowledge-soft-skills](https://github.com/nbhson/knowledge-soft-skills) | Soft skills & career development |
 | [knowledge-design-pattern](https://github.com/nbhson/knowledge-design-pattern) | Software design patterns |
 | [knowledge-accessibility](https://github.com/nbhson/knowledge-accessibility) | Web accessibility (a11y) |
 | [knowledge-ui-ux](https://github.com/nbhson/knowledge-ui-ux) | UI/UX design knowledge |
 | [knowledge-version-control](https://github.com/nbhson/knowledge-version-control) | Git & version control |
-| [knowledge-technical-scrolling](https://github.com/nbhson/knowledge-technical-scrolling) | Technical scrolling techniques |
 
 </details>
 
@@ -293,19 +282,16 @@ const SON_NGUYEN = {
 | Repository | Description |
 |------------|-------------|
 | [game-my-happy-farm](https://github.com/nbhson/game-my-happy-farm) | 🆕 Nông Trại Pixel — pixel-art farm game trên web: trồng cây, nuôi cá, làng multiplayer |
-| [skill-ui-ux](https://github.com/nbhson/skill-ui-ux) | 🆕 Professional UI/UX skill set — 12 design styles + machine-readable data.json |
+| [skill-design-system](https://github.com/nbhson/skill-design-system) | 🆕 Design system skill — 12 design styles + machine-readable data |
 
 </details>
 
 <details>
-<summary><b>🎨 Templates — 3 · 📂 Projects — 2</b></summary>
+<summary><b>🎨 Templates — 1 · 📂 Projects — 1</b></summary>
 
 | Repository | Description |
 |------------|-------------|
-| [template-morphin-premium-landing](https://github.com/nbhson/template-morphin-premium-landing) | Premium landing page template |
 | [template-storytelling](https://github.com/nbhson/template-storytelling) | Cinematic scroll-driven landing — React 19 · Next.js 15 · Three.js · GSAP |
-| [template-webgl-hybird](https://github.com/nbhson/template-webgl-hybird) | WebGL hybrid rendering template |
-| [project-collection](https://github.com/nbhson/project-collection) | Collection of various projects |
 | [project-nodejs-interview](https://github.com/nbhson/project-nodejs-interview) | Node.js interview preparation |
 
 </details>
@@ -327,5 +313,5 @@ npm install sonnguyen
 <p align="center">
   <sub>Professional focus: clean boundaries · provable metrics · auditable provenance · human-in-the-loop</sub><br/>
   <i>“Teaching · Sharing knowledge · Building tools for humans”</i><br/>
-  <sub>Updated 2026-10-29 · <code>76 public repos</code> · <a href="https://github.com/nbhson/nbhson/commits/master">changelog</a></sub>
+  <sub>Updated 2026-11-02 · <code>65 public repos</code> · <a href="https://github.com/nbhson/nbhson/commits/master">changelog</a></sub>
 </p>
