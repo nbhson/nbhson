@@ -39,7 +39,7 @@
 
 I build **review infrastructure, knowledge systems, and developer tools** where **AI handles the flood and humans keep the decision**. Focused on clean boundaries, provable metrics, and auditability — from MCP integrations to attention scoring.
 
-- **Current focus:** HAI Harness (PR review control plane), Free LLM Gateway (43 providers / 324 models), Bitbucket MCP Server (39 tools · `sbitbucket-mcp-server`), Project Knowledge Harness (6-engine knowledge system), Live Translate Web (real-time EN caption + VI translate)
+- **Current focus:** HAI Harness (PR review control plane), Free LLM Gateway (50 providers / 419 models), Bitbucket MCP Server (39 tools · `sbitbucket-mcp-server`), NexGate (OpenAI-compatible gateway), AI Mockup Studio (AI-native visual design), Project Knowledge Harness (6-engine knowledge system), Live Translate Web (real-time EN caption + VI translate)
 - **Principles:** Evidence before confidence · Human attention is scarce · Full provenance · Shadow-then-default
 - **Open to:** Architecture reviews, MCP/tooling collaborations, knowledge & AI infrastructure discussions
 
@@ -60,7 +60,7 @@ const SON_NGUYEN = {
     ai: ["Gemini API", "OpenAI-compatible Gateway", "Ollama / Local AI", "Speech-to-Text", "MCP"],
   },
   architecture: ["SPA", "MVVM", "Micro Frontend", "Monorepo", "Polyglot Persistence"],
-  currentlyBuilding: ["HAI Harness — PR Review Control Plane", "Free LLM Gateway", "Bitbucket MCP Server — 39 tools", "Project Knowledge Harness (PKH)", "Live Translate Web — Real-time Caption & Translate"],
+  currentlyBuilding: ["HAI Harness — PR Review Control Plane", "Free LLM Gateway", "Bitbucket MCP Server — 39 tools", "NexGate — OpenAI-compatible API Gateway", "AI Mockup Studio — AI-native Visual Design", "Project Knowledge Harness (PKH)", "Live Translate Web — Real-time Caption & Translate"],
 };
 ```
 
@@ -87,9 +87,11 @@ const SON_NGUYEN = {
 
 | Project | What it is | Stack |
 |---------|------------|-------|
-| **⭐⭐⭐ HAI Harness** — [`app-human-attention-infrastructure`](https://github.com/nbhson/app-human-attention-infrastructure) | **PR review control plane.** AI reviews external PRs, human decides. `v0.6.0-harness · 25 packages · 149 tests · 7 e2e` | TS · Fastify · React Vite · Postgres Drizzle · OTel · Docker · MCP |
-| **⭐⭐ Free LLM Gateway** — [`app-free-llm-gateway`](https://github.com/nbhson/app-free-llm-gateway) | One OpenAI-compatible endpoint — 43 providers · 324 models · 100% free | Hono + Bun · Smart routing · Fallback |
-| **⭐⭐ Bitbucket MCP Server** — [`tool-bitbucket-mcp`](https://github.com/nbhson/tool-bitbucket-mcp) | **Bitbucket Server/Data Center via MCP — 39 tools.** PRs + reviews + comments/tasks + branches + commits + search (`grep`/`search_code`) · `npx sbitbucket-mcp-server` · `v1.4.0 · 57 tests` | TS · stdio + Streamable HTTP · Docker · PAT · zod · Vitest |
+| **⭐⭐⭐ HAI Harness** — [`app-human-attention-infrastructure`](https://github.com/nbhson/app-human-attention-infrastructure) | **PR review control plane.** AI reviews external PRs, human decides. `v0.6.1-harness · 25 packages · 189 test files · 7 e2e` | TS · Fastify · React Vite · Postgres Drizzle · OTel · Docker · MCP |
+| **⭐⭐ Free LLM Gateway** — [`app-free-llm-gateway`](https://github.com/nbhson/app-free-llm-gateway) | One OpenAI-compatible endpoint — 50 providers · 419 models · 100% free | Hono + Bun · Smart routing · Fallback |
+| **⭐⭐ Bitbucket MCP Server** — [`tool-bitbucket-mcp`](https://github.com/nbhson/tool-bitbucket-mcp) | **Bitbucket Server/Data Center via MCP — 39 tools.** PRs + reviews + comments/tasks + branches + commits + search (`grep`/`search_code`) · `npx @nbhson43/s-bitbucket-mcp-server` · `v1.5.1 · 123 tests` | TS · stdio + Streamable HTTP · Docker · PAT · zod · Vitest |
+| **⭐ NexGate** — [`app-nexgate`](https://github.com/nbhson/app-nexgate) | **OpenAI-compatible API gateway.** Turn a home machine into a shared AI gateway for blocked networks — client keys, quotas, routing, live dashboard | Hono + Node · Drizzle/SQLite · React Vite |
+| **⭐ AI Mockup Studio** — [`app-mockup-studio`](https://github.com/nbhson/app-mockup-studio) | **AI-native visual design platform.** Natural language → UI mockup → conversational editing → export React/Vue/HTML | Vue 3.5 + Vite · NestJS · Drizzle + Postgres · Redis |
 | **⭐ Project Knowledge Harness** — [`app-project-knowledge`](https://github.com/nbhson/app-project-knowledge) | Model-independent knowledge system (Git/Confluence/Jira → AST → Graph) | Python · FastAPI · tree-sitter · ChromaDB · NetworkX |
 | **⭐ Live Translate Web** — [`app-live-translate-web`](https://github.com/nbhson/app-live-translate-web) | **Real-time EN caption + VI translate.** Any tab/system audio → live caption & parallel translate, <1.5s latency. Web + Extension + Tauri | Next.js 15 · FastAPI · Deepgram · Web Speech · Socket.io · Tauri · pnpm Monorepo |
 | **⭐ English Speaking Coach** — [`app-english-speaking`](https://github.com/nbhson/app-english-speaking) | **AI English speaking coach for developers.** Voice practice across Daily / Meeting / Presentation / Custom Class / VN→EN — real-time correction, markdown lessons, assessment dashboard, SQLite library | React 19 · Express · SQLite · Web Speech · react-markdown · npm Monorepo |
@@ -102,13 +104,13 @@ const SON_NGUYEN = {
 
 <p align="center">
   <a href="https://github.com/nbhson/app-human-attention-infrastructure">
-    <img src="https://raw.githubusercontent.com/nbhson/app-human-attention-infrastructure/main/HAI.png" width="84%" alt="HAI Review" />
+    <img src="https://raw.githubusercontent.com/nbhson/app-human-attention-infrastructure/main/docs/assets/HAI.png" width="84%" alt="HAI Review" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/nbhson/app-human-attention-infrastructure"><img src="https://img.shields.io/badge/repo-app--human--attention--infrastructure-58A6FF?style=flat-square&logo=github" alt="repo" /></a>
-  <img src="https://img.shields.io/badge/version-v0.6.0--harness-7a3f3f?style=flat-square" alt="v0.6.0" />
+  <img src="https://img.shields.io/badge/version-v0.6.1--harness-7a3f3f?style=flat-square" alt="v0.6.1" />
   <img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square" alt="Apache-2.0" />
   <img src="https://img.shields.io/badge/node-%E2%89%A5%2020-339933?style=flat-square&logo=node.js" alt="node" />
   <img src="https://img.shields.io/badge/pnpm-9.15.4-F69220?style=flat-square&logo=pnpm" alt="pnpm" />
@@ -131,8 +133,8 @@ const SON_NGUYEN = {
 **How it's built**
 - **Stack:** TypeScript · Fastify · React (Vite) · PostgreSQL 16 (Drizzle) · OpenTelemetry · Docker
 - **Boundaries:** 25 `@harness/*` packages — engines never import another engine
-- **Status:** `v0.6.0-harness` — review-only control plane (`review-reorient` pivot)
-- **Quality:** 149 test files · 51 tables · 7 e2e · build / typecheck / lint green
+- **Status:** `v0.6.1-harness` — review-only control plane (`review-reorient` pivot)
+- **Quality:** 189 test files · 51 tables · 7 e2e · build / typecheck / lint green
 - **Ops:** `correlation_id` event log · LLM-as-judge · memory tiers · closed learning loop
 
 </td>
@@ -158,12 +160,15 @@ const SON_NGUYEN = {
 
 ---
 
-## 🆕 Recently Created — Oct–Nov 2026 · 14 repos
+## 🆕 Recently Created — Oct–Nov 2026 · 17 repos
 
-> Created **October–November 2026**, newest first · synced via `gh api users/nbhson/repos` · dọn dẹp profile: đã xoá 12 repo trùng lặp/
+> Created **October–November 2026**, newest first · synced via `gh api users/nbhson/repos` · dọn dẹp profile: đã xoá 12 repo trùng lặp
 
 | Repository | Created | Description |
 |------------|---------|-------------|
+| [app-nexgate](https://github.com/nbhson/app-nexgate) | 11-17 | NexGate — OpenAI-compatible API gateway, biến máy nhà thành gateway dùng chung AI models qua chuẩn OpenAI `/v1` |
+| [skill-confluence-documents](https://github.com/nbhson/skill-confluence-documents) | 11-17 | OpenCode skill cho tài liệu Confluence doanh nghiệp — FDS, API specs, RFCs, runbooks, ADRs · Markdown → storage XHTML, lint + safe publish |
+| [app-mockup-studio](https://github.com/nbhson/app-mockup-studio) | 11-13 | AI Mockup Studio — AI-native visual design: ngôn ngữ tự nhiên → UI mockup → chỉnh sửa hội thoại → export React/Vue/HTML |
 | [skill-design-system](https://github.com/nbhson/skill-design-system) | 11-01 | 🆕 Design system skill — CSS tokens + 12 design styles |
 | [app-lottery-prediction](https://github.com/nbhson/app-lottery-prediction) | 10-28 | Vietlott prediction — Next.js + SQLite, đồng bộ kết quả thật từ vietlott.vn, dự đoán thống kê + AI |
 | [tool-universal-agent-recovery-mcp](https://github.com/nbhson/tool-universal-agent-recovery-mcp) | 10-28 | Auto-resume system cho coding agent — MCP server + watchdog tự resume task bị gián đoạn |
@@ -179,17 +184,19 @@ const SON_NGUYEN = {
 | [tutorial-github-copilot](https://github.com/nbhson/tutorial-github-copilot) | 10-04 | Khóa học GitHub Copilot tiếng Việt: 18 bài, 47 lệnh, FAQ |
 | [tutorial-claude-code](https://github.com/nbhson/tutorial-claude-code) | 10-04 | Khóa học Claude Code tiếng Việt: 18 bài, hooks, MCP, subagents, skills |
 
-## Repositories — 65 Public
+## Repositories — 69 Public
 
-> Last synced **2026-11-02** via `gh api users/nbhson/repos` · profile cleanup 11/2026: removed 12 stale/duplicate repos · `npx sonnguyen`
+> Last synced **2026-11-21** via `gh api users/nbhson/repos` · 69 public repos (68 listed below + this profile) · profile cleanup 11/2026: removed 12 stale/duplicate repos
 
 <details open>
-<summary><b>📱 Applications — 22</b></summary>
+<summary><b>📱 Applications — 24</b></summary>
 
 | Repository | Description |
 |------------|-------------|
-| [app-human-attention-infrastructure](https://github.com/nbhson/app-human-attention-infrastructure) | ⭐⭐⭐ **Featured** — HAI Harness — PR review control plane · `v0.6.0 · TS/Fastify/React/Postgres/OTel · 25 packages` |
-| [app-free-llm-gateway](https://github.com/nbhson/app-free-llm-gateway) | ⭐⭐ One endpoint for all free LLMs — 43 providers / 324 models · Hono + Bun · OpenAI-compatible |
+| [app-nexgate](https://github.com/nbhson/app-nexgate) | 🆕 NexGate — OpenAI-compatible API gateway · `Hono + Node · Drizzle/SQLite · React Vite dashboard` |
+| [app-mockup-studio](https://github.com/nbhson/app-mockup-studio) | 🆕 AI Mockup Studio — AI-native visual design platform: natural language → UI mockup → export React/Vue/HTML · `Vue 3.5/Vite/NestJS/Postgres/Redis` |
+| [app-human-attention-infrastructure](https://github.com/nbhson/app-human-attention-infrastructure) | ⭐⭐⭐ **Featured** — HAI Harness — PR review control plane · `v0.6.1-harness · TS/Fastify/React/Postgres/OTel · 25 packages` |
+| [app-free-llm-gateway](https://github.com/nbhson/app-free-llm-gateway) | ⭐⭐ One endpoint for all free LLMs — 50 providers / 419 models · Hono + Bun · OpenAI-compatible |
 | [app-project-knowledge](https://github.com/nbhson/app-project-knowledge) | ⭐ Project Knowledge Harness — 6-engine knowledge system (Python / FastAPI) |
 | [app-live-translate-web](https://github.com/nbhson/app-live-translate-web) | ⭐ Live Translate Web — real-time EN caption + VI translate · `Next.js 15/FastAPI/Deepgram/Web Speech/Socket.io/Tauri` · Web + Extension + Tauri · latency <1.5s |
 | [app-english-speaking](https://github.com/nbhson/app-english-speaking) | ⭐ English Speaking Coach — AI voice practice (Daily/Meeting/Presentation/Custom Class/VN→EN) · React 19/Express/SQLite |
@@ -245,7 +252,7 @@ const SON_NGUYEN = {
 
 | Repository | Description |
 |------------|-------------|
-| [tool-bitbucket-mcp](https://github.com/nbhson/tool-bitbucket-mcp) | ⭐⭐ Bitbucket MCP Server — 39 tools (PR/review/comment/task/branch/commit/`grep`) · `sbitbucket-mcp-server v1.4.0` · TS/stdio+HTTP/Docker |
+| [tool-bitbucket-mcp](https://github.com/nbhson/tool-bitbucket-mcp) | ⭐⭐ Bitbucket MCP Server — 39 tools (PR/review/comment/task/branch/commit/`grep`) · `sbitbucket-mcp-server v1.5.1` · TS/stdio+HTTP/Docker |
 | [tool-universal-agent-recovery-mcp](https://github.com/nbhson/tool-universal-agent-recovery-mcp) | 🆕 Auto-resume system cho coding agent — MCP server + independent watchdog (OpenCode / Claude Code / generic CLI) |
 | [tool-logwork-mcp](https://github.com/nbhson/tool-logwork-mcp) | 🆕 Tempo Timesheet MCP Server — Tempo Timesheets + Jira Cloud |
 | [tool-prompt-rewrite-mcp](https://github.com/nbhson/tool-prompt-rewrite-mcp) | 🆕 Universal Prompt Gate MCP — review & select prompt trước khi gửi LLM |
@@ -277,11 +284,12 @@ const SON_NGUYEN = {
 </details>
 
 <details>
-<summary><b>🎮 Games — 1 · 🧩 Skills — 1</b></summary>
+<summary><b>🎮 Games — 1 · 🧩 Skills — 2</b></summary>
 
 | Repository | Description |
 |------------|-------------|
 | [game-my-happy-farm](https://github.com/nbhson/game-my-happy-farm) | 🆕 Nông Trại Pixel — pixel-art farm game trên web: trồng cây, nuôi cá, làng multiplayer |
+| [skill-confluence-documents](https://github.com/nbhson/skill-confluence-documents) | 🆕 OpenCode skill cho tài liệu Confluence doanh nghiệp — FDS, API specs, RFCs, runbooks, ADRs · Markdown → storage XHTML, lint + safe publish |
 | [skill-design-system](https://github.com/nbhson/skill-design-system) | 🆕 Design system skill — 12 design styles + machine-readable data |
 
 </details>
@@ -300,11 +308,6 @@ const SON_NGUYEN = {
 
 ### Connect
 
-```bash
-npx sonnguyen        # CLI
-npm install sonnguyen
-```
-
 - **VS Code Web:** [github.dev/nbhson/nbhson](https://github.dev/nbhson/nbhson) · **Diagrams:** [gitdiagram.com](https://gitdiagram.com/nbhson/app-human-attention-infrastructure) · **Repo graph:** `https://gitdiagram.com/nbhson/<repo>`
 - Prefer email for collaborations — response within 24h.
 
@@ -313,5 +316,5 @@ npm install sonnguyen
 <p align="center">
   <sub>Professional focus: clean boundaries · provable metrics · auditable provenance · human-in-the-loop</sub><br/>
   <i>“Teaching · Sharing knowledge · Building tools for humans”</i><br/>
-  <sub>Updated 2026-11-02 · <code>65 public repos</code> · <a href="https://github.com/nbhson/nbhson/commits/master">changelog</a></sub>
+  <sub>Updated 2026-11-21 · <code>69 public repos</code> · <a href="https://github.com/nbhson/nbhson/commits/master">changelog</a></sub>
 </p>
